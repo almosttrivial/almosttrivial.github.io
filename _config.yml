@@ -11,9 +11,9 @@ title                    : "Johnny L. Fonseca"
 title_separator          : "-"
 name                     : &name "Johnny L. Fonseca"
 description              : &description "PhD Candidate at Rutgers University"
-url                      : https://jlf299.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://almosttrivial.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "jlf299.github.io"
+repository               : "almosttrivial.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -115,7 +115,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  blogpost         : https://jlf299.github.io/year-archive/
+  blogpost         : https://almosttrivial.github.io/year-archive/
 
 
 # Reading Files
