@@ -48,7 +48,7 @@ INSERT THEOREM
 INSERT THEOREM
 INSERT THEOREM
 
-Each of these theorems are results of several other propositions and lemma culminating in their proofs. While the above \\(\mathfrak{sl}\_{2}\\) result is one such piece, there are results regarding two other structures that play essential roles as well: that is root systems and the universal enveloping algebra of a Lie algebra.
+Each of these theorems are results of several other propositions and lemmas culminating in their proofs. While the above \\(\mathfrak{sl}\_{2}\\) result is one such piece, there are results regarding two other structures that play essential roles as well: that is root systems and the universal enveloping algebra of a Lie algebra.
 
 Root systems are a more geometric object which may be associated to a semisimple Lie algebra. This allows for more intuition about the Lie algebra by first saying something about root systems, and seeing the implication it has on the corresponding Lie algebra. Namely, the classification of simple Lie algebras is largely due in part to the classification of root systems associated to simple Lie algebras.
 
