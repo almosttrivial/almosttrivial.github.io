@@ -36,7 +36,7 @@ which I strongly suggest the reader to confirm that this binary operation actual
 
 Now, as I previously mentioned, there will be a series of blog posts to come that will explore the results below. With that in mind, I will not necessarily define everything. But even if I define something, I might not state all, or any, of the implications which might follow. Instead, I will tag it with the appropriate blog post as they become published.
 
-For instance, one might wonder what some of the practically methods are in studying a Lie algebra? Perhaps unsurprisingly is by seeing how it acts on vector spaces! This is the idea of a representation of a Lie algebra. For the unfamiliar reader, if you know about group actions or \\(R\\)-modules, then it is the same thing except formulated with respect to Lie algebras instead of a group or a ring acting on something.
+For instance, one might wonder what are some ways of studying a Lie algebra? Perhaps unsurprisingly is by seeing how it acts on vector spaces! This is the idea of a representation of a Lie algebra. For the unfamiliar reader, if you know about group actions or \\(R\\)-modules, then it is the same thing except formulated with respect to Lie algebras instead of a group or a ring acting on something.
 
 As it turns out, there is a particular Lie algebra, \\(\mathfrak{sl}\_{2}\\) consisting of all traceless linear maps in \\(\mathfrak{gl}\_{2}\\), and its' representation theory is pivotal in not only classifying complex simple Lie algebras and yielding a uniform presentation for them, but also in studying their corresponding representation theories. More precisely, the following theorem about \\(\mathfrak{sl}\_{2}\\) is crucial
 
