@@ -1,5 +1,5 @@
 ---
-title: 'Blog Post number 4'
+title: 'Preface to Lie Algebras'
 date: 2020-08-14
 permalink: /posts/PrefaceToLieAlgebras
 tags:
@@ -7,21 +7,7 @@ tags:
   - category1
   - category2
 ---
-\documentclass{article}
-\usepackage{mathtools, amsfonts, bbold, tikz-cd, amsmath, capt-of, amsthm, amssymb}
-\usepackage[utf8]{inputenc}
-\usepackage[margin = 0.75in]{geometry}
-\input{utils/Shortcuts}
-\setcounter{section}{-1}
 
-\title{Notes}
-\author{Johnny Lenn Fonseca}
-\date{}
-
-\begin{document}
-
-
-\maketitle
 
 The first topic I pursued at the start of my doctoral studies was learning about the representation theory of complex semisimple Lie algebras. My main resource was HUMPHREYS, which, while relatively small given the complexity of the topic, was a very clear and concise treatment of the material. 
 
@@ -68,6 +54,3 @@ As for the universal enveloping algebra, it is definitely more algebraic. It too
 
 The enumerated theorems above will be the goal of a series of future blog posts. Moreover, I also mentioned throughout them I will elaborate on how the present material motivates considerations in the Kac-Moody algebra case and Quantum Group case. For now, what I can say is that the Serre presentation is at the crux of both Kac-Moody algebras and Quantum Groups. Moreover, the representation theory here in the classical setting motivates that of the other objects, and in a sense is in fact extended in both cases.
 
-%To the genuine readers that made it this far, you have my sincerest thanks. This blog post certainly had few equations and also no diagrams. But this is because I am saving it for the future blog posts. If you made to here and read every word of this long post, then comment your favorite kind of algae. 
-
-\end{document}
