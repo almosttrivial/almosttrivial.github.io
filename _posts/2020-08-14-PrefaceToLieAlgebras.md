@@ -3,9 +3,9 @@ title: 'Preface to Lie Algebras'
 date: 2020-08-14
 permalink: /posts/PrefaceToLieAlgebras
 tags:
-  - cool posts
-  - category1
-  - category2
+  - Lie Algebras
+  - sl2 theory
+  - root systems
 ---
 
 
@@ -21,7 +21,7 @@ Without further ado, let us first consider what is a Lie algebra and what is the
 * \\([x,x] = 0\\)
 * \\([x,[y,z]] + [y,[z,x]] + [z,[x,y]] = 0\\)
 
-The operation is called the Lie bracket or just the bracket (of \\(\mathfrak{g}\\) if there is ambiguity). The first equality is called alternativity of the bracket and the second is called the Jacobi identity. However, I also said it is a bilinear operation, so this is part of its definition as well. Before proceeding with examples, I would just like to point out that while I said one commonly works over fields, I did not say that the fields had to have zero characteristic. In particular, if one consider the alternativity relation, then it readily implies \\([x,y] = -[y,x]\\), which is called skew-symmetry. Now, skew-symmetry also implies alternativity, but only if we assume \\(\text{char}(\mathbb{K})\neq 2\\). And indeed, for the bulk of what I have to say I will consider \\(\mathbb{K}\\) a characteristic zero field, and sometimes even algebraically closed when necessary. But I think it is worth pointing out that the implications between alternativity and skew-symmetry.
+The operation is called the Lie bracket or just the bracket (of \\(\mathfrak{g}\\) if there is ambiguity). The first equality is called alternativity of the bracket and the second is called the Jacobi identity. However, I also said it is a bilinear operation, so this is part of its definition as well. Before proceeding with examples, I would just like to point out that while I said one commonly works over fields, I did not say that the fields had to have zero characteristic. In particular, if one considers the alternativity relation, then it readily implies \\([x,y] = -[y,x]\\), which is called skew-symmetry. Now, skew-symmetry also implies alternativity, but only if we assume \\(\text{char}(\mathbb{K})\neq 2\\). And indeed, for the bulk of what I have to say I will consider \\(\mathbb{K}\\) a characteristic zero field, and sometimes even algebraically closed when necessary. But I think it is worth pointing out that the implications between alternativity and skew-symmetry.
 
 
 Now that we have this abstract definition, well, where do we find Lie algebras? Why are they even considered in the first place? As it just so happens, everyone is likely familiar with a couple of important examples: endomorphisms of a vector space! In particular, if the vector space is finite-dimensional, then one can safely consider square matrices of a fixed size instead. The notation for these spaces are typically \\(\mathfrak{gl}(V)\\), especially when \\(V\\) is infinite-dimensional, and \\(\mathfrak{gl}(n), \mathfrak{gl}\_{n}, \mathfrak{gl}(V,n)\\) in the event that \\(V\\) is finite-dimensional. Of course, the reader is probably more familiar with the notation \\(\text{End}(V)\\), but the other notation is more common place when consider the Lie algebra structure on the space of endomorphisms. So, what exactly is its Lie algebra structure? Well, this actually will address why Lie algebras are studied as well.
