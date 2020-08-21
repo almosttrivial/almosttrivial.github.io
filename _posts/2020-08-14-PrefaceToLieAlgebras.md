@@ -12,7 +12,7 @@ tags:
 
 The first topic I pursued at the start of my doctoral studies was learning about the representation theory of complex semisimple Lie algebras. My main resource was HUMPHREYS, which, while relatively small given the complexity of the topic, was a very clear and concise treatment of the material. 
 
-In this blog, I will highlight some of the main attractions of the theory e.g. the importance of \\(\mathfrak{sl}\_{2}\\), root systems, classifications, PBW, highest weights, etc. However, each of these examples and more will be properly explored and presented in their own respective blog posts. Thus, consider this as almost my rendition of Humphreys preface.
+In this post I will highlight some of the main attractions of the theory: the classification of complex-simple Lie algebras, their Serre presentation, and their representation theory. However, each of these examples and more will be properly explored and presented in their own respective blog posts. Thus, consider this as almost my rendition of Humphreys preface.
 
 Before proceeding, I would also like to tease even more blog posts that are to come. Namely, after finishing Humphreys, I learned about Kac-Moody algebras from predominantly CARTER, and after that about Quantum Groups from JANTZEN. As I state theorems and propositions, I will appropriately comment on how some considerations in the Lie algebras case are crucial points that get reinterpreted and motivate analogous results in the studies of Kac-Moody algebras and Quantum Groups. I know Lie superalgebras are similarly motivated by techniques and observations in classical Lie algebras, but I am less familiar with this and would like to learn more about it. All I know is that Lie superalgebras are in fact Lie algebra objects in the category of super vector spaces, and that there is a similar classification of certain Lie superalgebras, but I am not familiar with the proof.
 
@@ -38,11 +38,7 @@ Now, as I previously mentioned, there will be a series of blog posts to come tha
 
 For instance, one might wonder what are some ways of studying a Lie algebra? Perhaps unsurprisingly is by seeing how it acts on vector spaces! This is the idea of a representation of a Lie algebra. For the unfamiliar reader, if you know about group actions or \\(R\\)-modules, then it is the same thing except formulated with respect to Lie algebras instead of a group or a ring acting on something.
 
-As it turns out, there is a particular Lie algebra, \\(\mathfrak{sl}\_{2}\\) consisting of all traceless linear maps in \\(\mathfrak{gl}\_{2}\\), and its' representation theory is pivotal in not only classifying complex simple Lie algebras and yielding a uniform presentation for them, but also in studying their corresponding representation theories. More precisely, the following theorem about \\(\mathfrak{sl}\_{2}\\) is crucial
-
-INSERT THEOREM
-
-And the aforementioned results are formally the following theorems
+As it turns out, there is a particular Lie algebra, \\(\mathfrak{sl}\_{2}\\) consisting of all traceless linear maps in \\(\mathfrak{gl}\_{2}\\), and its' representation theory is pivotal in proving the three theorems mentioned at the beginning of this post. The aforementioned results are formally the following theorems
 
 INSERT THEOREM
 INSERT THEOREM
