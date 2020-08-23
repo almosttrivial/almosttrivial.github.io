@@ -9,9 +9,9 @@ tags:
 The goal of this blog post is to present much of the inherit structure of a Lie algebra, as well as its corresponding representation theory; by "representation theory," I just mean the category of its respective modules. In particular, I will discuss substructures within a Lie algebra, how a Lie algebra acts on itself, and then specify a certain class of Lie algebras called semisimple Lie algebras. The representation theory for semisimple Lie algebras will be explored in another blog post.
 
 Initially, a Lie algebra is just a (complex) vector space with a Lie bracket (MAKE HYPERLINK). As with most algebraic structures, there is a notion of a Lie subalgebra. Namely, if \\(\mathfrak{g}\\) is a Lie algebra with Lie bracket \\([\cdot,\cdot]\\), then a Lie subalgebra \\(\mathfrak{h}\\) of \\(\mathfrak{g}\\) is a subspace that is a Lie algebra by giving it the restricted Lie bracket of \\(\mathfrak{g}\\) i.e.
-\newline
-    [\mathfrak{h},\mathfrak{h}]\subseteq\mathfrak{h}\subseteq\mathfrak{g}
-\newline
+
+\\(    [\mathfrak{h},\mathfrak{h}]\subseteq\mathfrak{h}\subseteq\mathfrak{g}\\)
+
 
 
 A stronger sub-object in a sense is that of an \textbf{ideal} of a Lie algebra. A subspace \\(I\\) of a Lie algebra \\(\mathfrak{g}\\) is an ideal if it is fixed by bracketing by the whole Lie algebra i.e.
