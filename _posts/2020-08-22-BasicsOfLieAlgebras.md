@@ -60,7 +60,9 @@ Indeed, this is just the Jacobi identity! Thus, the Jacobi identity is equivalen
 
 for all \\(a,b\in A\\). Here, the juxtaposition denotes the multiplication in the algebra. Returning back to Lie algebras, the claim that each \\(\text{ad}(x)\\) is a deriviation is in fact simply another reformulation of the Jacobi identity! See here (HYPERLINK) for more about the derivations of a Lie algebra.
 
-Now, if the adjoint representation wasn't cool enough, it will also serve as our first instance of an ideal. That is, recall that the kernel of any Lie algebra homomorphism is always an ideal. While \\(\text{ker}(\text{ad})\\) is no different, it is a significant ideal. Written out, it is easy to check that this ideal contains all \\(x\in\mathfrak{g}\\) such that for all \\(y\in\mathfrak{g}\\) one has \\(0 = \text{ad}(x)(y) = [x,y]\\). One commonly says that these are all of the elements of \\(\mathfrak{g}\\) that commute with the rest of the Lie algbera - some reasnoning can be found here. This ideal is hence denoted by \\(\text{ker}(\text{ad}) =: Z(\mathfrak{g})\\). By the first isomorphism theorem above, one thus has 
+Now, if the adjoint representation wasn't cool enough, it will also serve as our first instance of an ideal. That is, recall that the kernel of any Lie algebra homomorphism is always an ideal. While \\(\text{ker}(\text{ad})\\) is no different, it is a significant ideal. Written out, it is easy to check that this ideal contains all \\(x\in\mathfrak{g}\\) such that for all \\(y\in\mathfrak{g}\\) one has \\(0 = \text{ad}(x)(y) = [x,y]\\). One commonly says that these are all of the elements of \\(\mathfrak{g}\\) that commute with the rest of the Lie algbera - some reasnoning can be found here. This ideal is hence denoted by \\(\text{ker}(\text{ad}) =: Z(\mathfrak{g})\\). If \\(Z(\mathfrak{g}) = \\{0\\}\\), then the Lie algebra is called Abelian.
+
+By the first isomorphism theorem above, one has 
 
 \\(    \text{ad}(\mathfrak{g}) \cong \mathfrak{g}/Z(\mathfrak{g})\\)
 
