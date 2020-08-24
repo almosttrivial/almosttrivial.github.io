@@ -1,7 +1,7 @@
 ---
 title: 'What's The Deal With These Ideals?'
 date: 2199-01-01
-permalink: /posts/2012/08/blog-post-4/
+permalink: /posts/2012/08/TheseIdeals/
 tags:
   - cool posts
   - category1
