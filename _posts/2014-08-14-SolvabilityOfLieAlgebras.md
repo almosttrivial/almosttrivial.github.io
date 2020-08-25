@@ -30,7 +30,7 @@ Now, one may ask whether the derived series is infinite or if it eventually stab
 
 One sometimes says \\(\mathfrak{g}\\) is solvable of degree \\(k\\) if this is the minimal integer such that the derived series terminates. Clearly, the Lie algebras of solvable degree 0 are trivial. For Lie algebras of solvable degree 1, recall a Lie algebra is Abelian if it equals its center:
 
-\\(\textbf{Proposition}\\) \\(\mathfrak{g}^{(1)} = 0 \\) if and only if \\(\mathfrak{g}\\) is Abelian.
+\\(\textbf{Proposition}\\) \\(\mathfrak{g}^{(1)} = \\{0\\} \\) if and only if \\(\mathfrak{g}\\) is Abelian.
 
 \\(\textbf{Proof}\\)    If \\(\mathfrak{g}\\) is Abelian, then for all \\(x\in\mathfrak{g}\\) one has \\([x,y] = 0\\) for every \\(y\in\mathfrak{g}\\). However, these brackets span \\(\mathfrak{g}^{(1)}\\), so indeed \\(\mathfrak{g}^{(1)} = 0 \\). Conversely, if \\(\mathfrak{g}\\) is not Abelian, then there exists \\(x\in \mathfrak{g}\backslash Z(\mathfrak{g})\\). Hence, there exists a \\(y\in\mathfrak{g}\\) such that \\([x,y]\neq 0\\) but \\([x,y]\in\mathfrak{g}^{(1)}\\) and this completes the proof. \\(\Box\\)
 
