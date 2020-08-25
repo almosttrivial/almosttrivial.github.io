@@ -50,7 +50,23 @@ The last property is a particularly important one since it implies that for any 
 
 The maximality of the radical paired with the second solvability property above readily implies that \\(\mathfrak{g}/\text{Rad}(\mathfrak{g})\\) is semisimple. Given how easy it is to obtain a semisimple Lie algebra, it might not be a big surprise that a bulk of the theory on Lie algebras is with regards to semisimple Lie algebras. I discuss a few of the main properties here, here, and here. However, as I said, semisimplicity is so common, and its properties are so powerful, that most future blog posts about Lie algebras will be with regards to semisimple Lie algebras.
 
-For now, I would like to present a very nice theorem that is not in Humphreys and that some Lie algebra classes seem to not go over, if at all mention. This is the Levi decomposition of a Lie algebra:
+There are two more results pertaining to solvability that I would like to mention here. The first is a remark I made in an earlier blog post (HYPERLINK to ad(g)) regarding the image of a Lie algebra under its adjoint map. That is, recall the map sending an element to its adjoint map:
+
+\\(    \text{ad}: \mathfrak{g}\to \text{End}(\mathfrak{g}),\quad x\mapsto \text{ad}(x)\\)
+
+This is a representation of \\(\mathfrak{g}\\). Moreover, it has the property that
+
+\\(    \text{ad}(\mathfrak{g}) \cong \mathfrak{g}/Z(\mathfrak{g})\\)
+
+The following lemma is trivial to prove:
+
+\\(\textbf{Lemma}\\) \\(\mathfrak{g}\\) is solvable if and only if \\(\text{ad}(\mathfrak{g})\\) is solvable.
+
+\\(\textbf{Proof}\\) The forward implication is obvious by the first property of solvability since it is precisely a homomorphic image of the Lie algebra. As for the reverse direction, it follows from the property. Indeed, if \\(\text{ad}(\mathfrak{g})\\) is assumed to be solvable, then the isomorphic image \\(\mathfrak{g}/Z(\mathfrak{g})\\) is also solvable. But \\(Z(\mathfrak{g})\\) is a solvable ideal, so the second property yields the desired result, thus completing the proof. \\(\Box\\)
+
+There is an analogous result in terms of nilpotency (HYPERLINK on nilpotency). Both of these equivalences are particularly cool because one side you have an abstract Lie algebra, while the other is a collection of Lie algebra homomorphisms on the Lie algebra. This furthers a point I made in an earlier blog post that understanding the Lie bracket naturally provides insight on the structure of the Lie algebra.
+
+The last result on solvability I want to state is a very nice theorem that is not in Humphreys and that some Lie algebra classes seem to not go over, if at all mention:
 
 \\(\textbf{Theorem}\\)  If \\(\mathfrak{g}\\) is a finite dimensional Lie algebra over a characteristic zero field, then there exists a semisimple subalgebra \\(\mathfrak{s}\subset\mathfrak{g}\\), complementary to the radical \\(\text{Rad}(\mathfrak{g})\\) such that
 
@@ -58,4 +74,4 @@ For now, I would like to present a very nice theorem that is not in Humphreys an
 
 This is called the \\(\textbf{Levi decomposition}\\) of \\(\mathfrak{g}\\), and \\(\mathfrak{s}\\) is called a \\(\textbf{Levi factor}\\). For those unfamiliar with Lie theory or perhaps this notation, the direct sum of Lie algebras can always be made into a Lie algebra, but decomposing a particular Lie algebra into a direct sum of such is not necessarily possible. Namely, in order to decompose a Lie algebra, the factors must actually be ideals of the initial Lie algebra, not just subalgebras. This is similar to in ring theory and group theory where one can decompose rings and groups into ideals and normal subgroups, respectively. I think I might write about this in a future blog post since the reason for this is nicely presented categorically.
 
-For now, you might be wondering, well if this isn't a direct sum of ideals, what kind of decomposition is this? Well, the above decomposition is a semi-direct sum. For a discussion on semi-direct products and a proof on the Levi decomposition, see here. As for the rest of this blog post, I am about done. Taking the Levi decomposition for granted, it follows that to understand any finite dimensional Lie algebra, one can proceed to understand all solvable and semisimple Lie algebras. The latter will constitute a bulk of future blog posts, while the former is actually a very hard problem! Solvable Lie algebras behave poorly and get very complicated as you go up in dimensions. To my knowledge, the classification of solvable Lie algebras is only up to dimension 7 (REFERENCE). There are definitely some families and particular dimensions that one can make specific arguments for, but nothing as unifying as what is done for semisimple Lie algebras. Weird, right?
+You might be wondering, well if this isn't a direct sum of ideals, what kind of decomposition is this? Well, the above decomposition is a semi-direct sum. For a discussion on semi-direct products and a proof on the Levi decomposition, see here. As for the rest of this blog post, I am about done. Taking the Levi decomposition for granted, it follows that to understand any finite dimensional Lie algebra, one can proceed to understand all solvable and semisimple Lie algebras. The latter will constitute a bulk of future blog posts, while the former is actually a very hard problem! Solvable Lie algebras behave poorly and get very complicated as you go up in dimensions. To my knowledge, the classification of solvable Lie algebras is only up to dimension 7 (REFERENCE). There are definitely some families and particular dimensions that one can make specific arguments for, but nothing as unifying as what is done for semisimple Lie algebras. Weird, right?
