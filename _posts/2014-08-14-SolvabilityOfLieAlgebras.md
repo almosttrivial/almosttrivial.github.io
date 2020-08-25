@@ -1,11 +1,9 @@
 ---
 title: 'Solvability Of Lie Algebras'
 date: 2014-08-14
-permalink: /posts/2014/08/blog-post-3/
+permalink: /posts/2014/08/SolvabilityofLieAlgebras/
 tags:
-  - cool posts
-  - category1
-  - category2
+  - Lie Algebras
 ---
 
 I wrote in an earlier blog post (HYPERLINK blog post) that the adjoint representation of a Lie algebra was a very informative representation. This blog post will explore one of the quintessential notions of a Lie algebra which is formulated in terms of the Lie bracket: solvability.
