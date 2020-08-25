@@ -12,7 +12,7 @@ I wrote in an earlier blog post (HYPERLINK blog post) that the adjoint represent
 
 First, consider the following subspaces of a Lie algebra \\(\mathfrak{g}\\):
 
-\\(    \mathfrak{g}^{(0)} := \mathfrak{g},&\quad \mathfrak{g}^{(k + 1)} := \left[\mathfrak{g}^{(k)},\mathfrak{g}^{(k)}\right]\\)
+\\(    \mathfrak{g}^{(0)} := \mathfrak{g},\&\quad \mathfrak{g}^{(k + 1)} := \left[\mathfrak{g}^{(k)},\mathfrak{g}^{(k)}\right]\\)
 
 Then the following two observations are readily proved
 
