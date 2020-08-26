@@ -1,7 +1,7 @@
 ---
 title: 'The Road to Homological Algebra'
-date: 2020-08-14
-permalink: /posts/2020/08/Road-To-Homological-Algebra/
+date: 2020-07-10
+permalink: /posts/Road-To-Homological-Algebra/
 tags:
   - Homological Algebra
   - Category Theory
