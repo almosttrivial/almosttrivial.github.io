@@ -1,6 +1,6 @@
 ---
 title: 'Monoids are Algebras, Change My Mind'
-date: 2020-08-20
+date: 2020-07-11
 permalink: /posts/OnMonoidAndModuleObjects/
 tags:
   - Category Theory
