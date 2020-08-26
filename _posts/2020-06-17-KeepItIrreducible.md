@@ -1,11 +1,9 @@
 ---
 title: 'Keep It Irreducible!'
-date: 2199-01-01
-permalink: /posts/2012/08/blog-post-4/
+date: 2020-06-17
+permalink: /posts/KeepItIrreducible/
 tags:
-  - cool posts
-  - category1
-  - category2
+  - Lie Algebras
 ---
 
 This post will show up by default. To disable scheduling of future posts, edit `config.yml` and set `future: false`. 
