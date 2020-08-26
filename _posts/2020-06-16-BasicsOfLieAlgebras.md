@@ -1,6 +1,6 @@
 ---
 title: 'Basics of Lie Algebras'
-date: 2020-08-20
+date: 2020-06-16
 permalink: /posts/BasicsOfLieAlgebras/
 tags:
   - Lie Algebras
