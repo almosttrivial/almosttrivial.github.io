@@ -1,7 +1,7 @@
 ---
 title: 'Solvability Of Lie Algebras'
-date: 2014-08-14
-permalink: /posts/2014/08/SolvabilityofLieAlgebras/
+date: 2020-06-16
+permalink: /posts/2020/06/SolvabilityofLieAlgebras/
 tags:
   - Lie Algebras
 ---
