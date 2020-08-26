@@ -1,20 +1,9 @@
 ---
 title: 'Nilpotency Of Lie Algebras'
-date: 2199-01-01
-permalink: /posts/2012/08/blog-post-4/
+date: 2020-06-16
+permalink: /posts/NilpotencyOfLieAlgebras/
 tags:
-  - cool posts
-  - category1
-  - category2
----
----
-title: 'Solvability Of Lie Algebras'
-date: 2014-08-14
-permalink: /posts/2014/08/blog-post-3/
-tags:
-  - cool posts
-  - category1
-  - category2
+  - Lie Algebras
 ---
 
 I wrote in an earlier blog post (HYPERLINK blog post) that the adjoint representation of a Lie algebra was a very informative representation. This blog post will explore one of the quintessential notions of a Lie algebra which is formulated in terms of the Lie bracket (deja vu): nilpotency.
