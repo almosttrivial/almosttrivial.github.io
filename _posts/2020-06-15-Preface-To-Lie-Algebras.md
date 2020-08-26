@@ -1,6 +1,6 @@
 ---
 title: 'Preface to Lie Algebras'
-date: 2020-06-16
+date: 2020-06-15
 permalink: /posts/PrefaceToLieAlgebras
 tags:
   - Lie Algebras
