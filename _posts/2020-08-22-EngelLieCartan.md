@@ -1,7 +1,7 @@
 ---
 title: 'Theorems of Engel, Lie, and Cartan'
-date: 2014-08-14
-permalink: /posts/2014/08/EngelLieCartan/
+date: 2014-06-17
+permalink: /posts/EngelLieCartan/
 tags:
   - Lie Algebras
 ---
