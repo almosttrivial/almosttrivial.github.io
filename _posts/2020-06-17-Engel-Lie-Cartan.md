@@ -35,7 +35,7 @@ is nonzero, where \\(\lambda: I\to\mathbb{C}\\) is a linear function. If we then
 
 Now, in order to prove this, let \\(x\in I\\) and \\(w\in W\\) and note that for all \\(y\in\mathfrak{g}\\), 
 
-\\([x,y](w) = x(y(w)) - y(x(w)) \Longrightarrow \lambda([x,y])w = x(y(w)) - \lambda(x)y(w)\\)
+\\(\[x,y\](w) = x(y(w)) - y(x(w)) \Longrightarrow \lambda([x,y])w = x(y(w)) - \lambda(x)y(w)\\)
 
 If it can be shown that \\(\lambda([x,y]) = 0\\), then
 
