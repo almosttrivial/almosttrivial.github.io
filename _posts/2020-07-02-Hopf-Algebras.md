@@ -10,7 +10,7 @@ The goal of this blog post is to present the definition and basic consequences t
 
 Now, to the best of my knowledge there are a few ways to introduce Hopf algebras. The one I will present here is sort of categorical, but not too demanding if the reader is uncomfortable with category theory. Moreover, the motivation for why one considers such objects at all is actually one of the points I emphasize [here](https://almosttrivial.github.io/posts/Hopf-Algebras-and-Tensor-Categories-a-love-story/). Otherwise, admittedly the structure I will define might seem sort of "forced;" as if I am constructing it just for fun with no purpose. Well for now, what's wrong with a little fun?
 
-To get into it, let us first recall what an associative unital \\(R\\)-algebra is (I believe one should state whether their algebra is associative or unital!). Abstractly, an associative unital \\(R\\)-algebra is a [monoid object](https://almosttrivial.github.io/posts/OnMonoidAndModuleObjects/) in the category of left \\(R\\)-modules. Formulaically, one considers a left \\(R\\)-module \\(A\\) with an element (suggestively denoted by) \\(1\_{A}\in A\\) and an \\(R\\)-bilinear map \\(\mu\_{A}: A\times A\to A\\) (whose image is typically written just by juxtaposition) such that the following equalities hold
+To get into it, let us first recall what is an associative unital \\(R\\)-algebra over a commutative (associative and unital) ring \\(R\\). In particular, as \\(R\\) is assumed to be commutative, there is no distinction between left and right \\(R\\)-modules. Then abstractly, an associative unital \\(R\\)-algebra is a [monoid object](https://almosttrivial.github.io/posts/OnMonoidAndModuleObjects/) in the category of \\(R\\)-modules. Formulaically, one considers an \\(R\\)-module \\(A\\) with an element (suggestively denoted by) \\(1\_{A}\in A\\) and an \\(R\\)-bilinear map \\(\mu\_{A}: A\times A\to A\\) (whose image is typically written just by juxtaposition) such that the following equalities hold
 
 1. \\( (ab)c = a(bc)\\)
 2. \\(1\_{A}a = a = a1\_{A}\\)
@@ -32,4 +32,4 @@ Now, going back to the subtlety I was promising: the equality in 1 is not really
 
 PUT THE DIAGRAM
 
-What about our second requirement pertaining to the unit? Well to analyze this we will actually have to 
+What about our second requirement pertaining to the unit? Well to analyze this we will actually have to consider the fact that \\(A\\) is an \\(R\\) module. In particular, suppose the module structure is given by the ring homomorphism \\(\phi:R\to\text{End}(A)\\) and recall that ring homomorphism preserve identities i.e. \\(\phi(1\_{R}) = \text{id}\_{A}\\). 
