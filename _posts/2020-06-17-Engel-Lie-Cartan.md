@@ -10,7 +10,7 @@ The title of this blog post might be a bit ambitious, but I believe the results 
 
 To begin, recall that the adjoint representation of a Lie algebra presents equivalent conditions for a Lie algbera to be nilpotent or solvable:
 
-\\(\mathfrak{g} \text{ is solvable (resp. nilpotent)} \quad \Longleftrightarrow\text{ad}\mathfrak{g} \text{ is solvable (resp. nilpotent)}\\)
+\\(\mathfrak{g} \text{ is solvable (resp. nilpotent)} \Longleftrightarrow\text{ad}\mathfrak{g} \text{ is solvable (resp. nilpotent)}\\)
 
 Thus, the proofs of Engel's Theorem, Lie's Theorem, and Cartan's Criterion in fact pertain to subalgebras of \\(\mathfrak{gl}(V)\\), from which one can then deduce results pertaining to an abstract Lie algebra by consider its image under the adjoint map. With this in mind, a preliminary result will be proven first that will serve to obtain Lie's Theorem, and indirectly obtain Engel's Theorem after reviewing its proof. However, this result is important in its own right so we call it a theorem instead of a lemma.
 
@@ -25,4 +25,8 @@ The proof is actually done by induction on the dimension of \\(\mathfrak{g}\\), 
 3. Show that \\(\mathfrak{g}\\) stabilizes a space consisting of such eigenvectors from 2.
 4. Find an eigenvecor in the previous space for a particular \\(z\in\mathfrak{g}\\) which satisifes the decomposition \\(\mathfrak{g} = I\oplus\mathbb{C}z\\), where the decomposition \\(\textbf{is as Lie algebras!}\\)
 
-For step one
+For step one, as we are proceeding with induction and now assuming \\(\mathfrak{g}\\) is nontrivial and solvable, it properly contains its derived algebra i.e. \\([\mathfrak{g},\mathfrak{g}]\subsetneq \mathfrak{g}\\). Then the quotient algebra \\(\mathfrak{g}/[\mathfrak{g},\mathfrak{g}]\\) is Abelian, so any subspace is automatically an ideal. We thus take \\(I\\) to be the inverse image of any codimension one subspace; this is our codimension one ideal.
+
+Next, by induction the following subspace \\(W\subseteq V\\)
+
+\\(W := \\{w\in V\ |\ x(w) = \lambda(x)w,\ \text{for all }x\in I\\}\\)
