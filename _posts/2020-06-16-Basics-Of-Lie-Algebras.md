@@ -6,7 +6,7 @@ tags:
   - Lie Algebras
 ---
 
-THe goal of this blog post is to present some of the basic definitions and corresponding consequences of the structure of a Lie algebra. Some statements will be given with a citation to a proof in Humphreys. Others might be straightforward enough for the reader to work out, but in future posts I might work out the proof if it is enlightening or interesting enough.
+The goal of this blog post is to present some of the basic definitions and corresponding consequences of the structure of a Lie algebra. Some statements will be given with a citation to a proof in Humphreys. Others might be straightforward enough for the reader to work out, but in future posts I might work out the proof if it is enlightening or interesting enough.
 
 Initially, a Lie algebra is just a (complex) vector space with a [Lie bracket](https://almosttrivial.github.io/posts/PrefaceToLieAlgebras). As with most algebraic structures the reader might be familiar with, there is a notion of sub-object and quotient object - see [here](https://almosttrivial.github.io/posts/Basics-of-Category-Theory) for this terminology. For instance, in groups one has subgroups and quotient groups by normal subgroups; rings have subrings and quotient rings by ideals; and Lie algebras have \textbf{subalgebras} and \textbf{quotient algberas} by \textbf{ideals} (not to be confused with ring ideals!). Specifically, if \\(\mathfrak{g}\\) is a Lie algebra with Lie bracket \\([\cdot,\cdot]\\), then a Lie subalgebra \\(\mathfrak{h}\\) of \\(\mathfrak{g}\\) is a subspace that is a Lie algebra by giving it the restricted Lie bracket of \\(\mathfrak{g}\\) i.e.
 
