@@ -60,7 +60,7 @@ Nonetheless, there are still several results one can prove about nilpotent Lie a
 
 \\(\textbf{Proof}\\) As \\(\mathfrak{g}\\) is nilpotent, suppose it is of nilpotent degree \\(k\\). Then for each \\(x,y\in\mathfrak{g}\\) one has \\(\text{ad}^{k - 1}(x)(y) \in L^{k} = \\{0\\}\\), which proves the result. \\(\Box\\)
 
-Interestingly, the converse is also true! This is the content of [Engel's Theorem](https://almosttrivial.github.io/posts/EngelLieCartan/). This result is particularly interesting because these are two seemingly different notions of nilpotency. On the other side you have nilpotency for an abstract Lie algebra as defined here on the \\textbf{entire structure}, while the other form of nilpotency is something defined for \\(\textbf{each element (operator)}\\).
+Interestingly, the converse is also true! This is the content of [Engel's Theorem](https://almosttrivial.github.io/posts/EngelLieCartan/). This result is particularly interesting because these are two seemingly different notions of nilpotency. On the other side you have nilpotency for an abstract Lie algebra as defined here on the \\(\textbf{entire structure}\\), while the other form of nilpotency is something defined for \\(\textbf{each element (operator)}\\).
 
 Allow me to preface [the proof](https://almosttrivial.github.io/posts/EngelLieCartan/) of Engel's theorem by proving a lemma that is interesting on its own right, but is used in the proof.
 
