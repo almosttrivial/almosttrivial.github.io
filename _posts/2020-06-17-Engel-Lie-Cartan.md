@@ -10,7 +10,7 @@ The title of this blog post might be a bit ambitious, but I believe the results 
 
 To begin, recall that the adjoint representation of a Lie algebra presents equivalent conditions for a Lie algbera to be nilpotent or solvable:
 
-\\(\mathfrak{g} \text{ is solvable (resp. nilpotent)} \quad \LeftRightarrow\text{ad}\mathfrak{g} \text{ is solvable (resp. nilpotent)}\\)
+\\(\mathfrak{g} \text{ is solvable (resp. nilpotent)} \quad \Longleftrightarrow\text{ad}\mathfrak{g} \text{ is solvable (resp. nilpotent)}\\)
 
 Thus, the proofs of Engel's Theorem, Lie's Theorem, and Cartan's Criterion in fact pertain to subalgebras of \\(\mathfrak{gl}(V)\\), from which one can then deduce results pertaining to an abstract Lie algebra by consider its image under the adjoint map. With this in mind, a preliminary result will be proven first that will serve to obtain Lie's Theorem, and indirectly obtain Engel's Theorem after reviewing its proof. However, this result is important in its own right so we call it a theorem instead of a lemma.
 
