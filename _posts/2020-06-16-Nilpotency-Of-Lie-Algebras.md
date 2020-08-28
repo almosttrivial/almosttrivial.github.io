@@ -6,7 +6,7 @@ tags:
   - Lie Algebras
 ---
 
-I wrote in an earlier blog post (HYPERLINK blog post) that the adjoint representation of a Lie algebra was a very informative representation. This blog post will explore one of the quintessential notions of a Lie algebra which is formulated in terms of the Lie bracket (deja vu): nilpotency.
+I wrote in an earlier [blog post](https://almosttrivial.github.io/posts/SolvabilityofLieAlgebras/) that the adjoint representation of a Lie algebra was a very informative representation. This blog post will explore one of the quintessential notions of a Lie algebra which is formulated in terms of the Lie bracket (deja vu): nilpotency.
 
 First, consider the following subspaces of a Lie algebra \\(\mathfrak{g}\\):
 
