@@ -23,7 +23,7 @@ The proof is actually done by induction on the dimension of \\(\mathfrak{g}\\), 
 1. Construct a codimension one ideal \\(I\\) of \\(\mathfrak{g}\\).
 2. By induction, there exists common eigenvectors for \\(I\\).
 3. Show that \\(\mathfrak{g}\\) stabilizes a space consisting of such eigenvectors from 2.
-4. Find an eigenvecor in the previous space for a particular \\(z\in\mathfrak{g}\\) which satisifes the decomposition \\(\mathfrak{g} = I\oplus\mathbb{C}z\\), where the decomposition \\(\textbf{is as Lie algebras!}\\)
+4. Find an eigenvecor in the previous space for a particular \\(z\in\mathfrak{g}\\) which satisifes the decomposition \\(\mathfrak{g} = I\oplus\mathbb{C}z\\), where the decomposition \\(\textbf{is as vector spaces, not Lie algebras!}\\)
 
 For step one, as we are proceeding with induction and now assuming \\(\mathfrak{g}\\) is nontrivial and solvable, it properly contains its derived algebra i.e. \\([\mathfrak{g},\mathfrak{g}]\subsetneq \mathfrak{g}\\). Then the quotient algebra \\(\mathfrak{g}/[\mathfrak{g},\mathfrak{g}]\\) is Abelian, so any subspace is automatically an ideal. We thus take \\(I\\) to be the inverse image of any codimension one subspace; this is our codimension one ideal.
 
@@ -31,4 +31,16 @@ Next, by induction the following subspace \\(W\subseteq V\\)
 
 \\(W := \\{w\in V\ \|\ x(w) = \lambda(x)w,\ \text{for all }x\in I\\}\\)
 
-is nonempty, where \\(\lambda: I\to\mathbb{C}\\) is a linaer function.
+is nonzero, where \\(\lambda: I\to\mathbb{C}\\) is a linear function. If we then suppose that step 3 has been completed, then step 4 is quick too. Indeed, if \\(\mathfrak{g}\\) stabilizes \\(W\\), then as \\(\mathbb{C}\\) is algebraically closed, pick an eigenvector in \\(W\\) for \\(z\\) as in the decomposition. But since \\(W\\) consists of eigenvectors for all of \\(I\\), the proof is done by simply extending the weight \\(\lambda\\) onto \\(z\\). Hence, all that remains is to show that \\(\mathfrak{g}(W)\subseteq W\\).
+
+Now, in order to prove this, let \\(x\in I\\) and \\(w\in W\\) and note that for all \\(y\in\mathfrak{g}\\), 
+
+\\([x,y](w) = x(y(w)) - y(x(w)) \Longrightarrow \lambda([x,y])w = x(y(w)) - \lambda(x)y(w)\\)
+
+If it can be shown that \\(\lambda([x,y]) = 0\\), then
+
+\\(x(y(w)) = \lambda(x)y(w)\\)
+
+so that \\(y(w)\in W\\) and the result would follow. Hence, we are tasked with proving that for all \\(x\in I\\) and \\(y\in\mathfrak{g}\\) that \\(\lambda([x,y]) = 0\\).
+
+
