@@ -17,8 +17,7 @@ To get into it, let us first recall what an associative unital \\(R\\)-algebra i
 
 Notice that I am not requiring the algebra to be commutative! The reader might also be use to seeing the \\(R\\)-bilinearity of \\(\mu_{A}\\) written out formulaically as well among these two conditions. Now, the reason why I even introduced the notation \\(\mu_{A}\\) is so that we can rewrite 1 and 2 in a more enlightening way:
 
-1'. \\( \mu\_{A}(\mu_{A}(a,b),c) = \mu\_{A}(a,\mu\_{A}(b,c))\\)
-
-2'. \\( \mu\_{A}(1\_{A},a) = a = \mu\_{A}(a,1\_{A})\\)
+1. \\( \mu\_{A}(\mu_{A}(a,b),c) = \mu\_{A}(a,\mu\_{A}(b,c))\\)
+2. \\( \mu\_{A}(1\_{A},a) = a = \mu\_{A}(a,1\_{A})\\)
 
 Okay.
