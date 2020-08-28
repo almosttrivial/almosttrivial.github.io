@@ -29,4 +29,6 @@ For step one, as we are proceeding with induction and now assuming \\(\mathfrak{
 
 Next, by induction the following subspace \\(W\subseteq V\\)
 
-\\(W := \\{w\in V\ |\ x(w) = \lambda(x)w,\ \text{for all }x\in I\\}\\)
+\\(W := \\{w\in V\ \|\ x(w) = \lambda(x)w,\ \text{for all }x\in I\\}\\)
+
+is nonempty, where \\(\lambda: I\to\mathbb{C}\\) is a linaer function.
