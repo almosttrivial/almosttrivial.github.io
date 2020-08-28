@@ -41,6 +41,13 @@ If it can be shown that \\(\lambda([x,y]) = 0\\), then
 
 \\(x(y(w)) = \lambda(x)y(w)\\)
 
-so that \\(y(w)\in W\\) and the result would follow. Hence, we are tasked with proving that for all \\(x\in I\\) and \\(y\in\mathfrak{g}\\) that \\(\lambda([x,y]) = 0\\).
+so that \\(y(w)\in W\\) and the result would follow. Hence, we are tasked with proving that for all \\(x\in I\\) and \\(y\in\mathfrak{g}\\) that \\(\lambda([x,y]) = 0\\). To this end, fix \\(w\\) and \\(y\in\mathfrak{g}\\). Next let \\(n\\) be the minimal positive integer such that the vectors
 
+\\(w, y(w), \dots, y^{n}(w)\\)
+
+are linearly dependent. Furthermore, define the subspaces
+
+\\(W_{i} := \text{Span}\\{w,y(w),\dots,y^{i - 1}(w)\\}\\)
+
+with \\(W_{0} = \\{0\\}\\). 
 
