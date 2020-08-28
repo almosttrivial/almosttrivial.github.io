@@ -1,7 +1,7 @@
 ---
-title: 'Hopf Algebras and Tensor Categories, a forgotten story'
+title: 'Hopf Algebras and Tensor Categories, a forgetful story'
 date: 2020-07-04
-permalink: /posts/Hopf-Algebras-and-Tensor-Categories-a-forgotten-story/
+permalink: /posts/Hopf-Algebras-and-Tensor-Categories-a-forgetful-story/
 tags:
   - Tannakian Duality
   - Hopf Algebras
