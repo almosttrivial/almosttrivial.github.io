@@ -20,4 +20,9 @@ Notice that I am not requiring the algebra to be commutative! The reader might a
 1. \\( \mu\_{A}(\mu_{A}(a,b),c) = \mu\_{A}(a,\mu\_{A}(b,c))\\)
 2. \\( \mu\_{A}(1\_{A},a) = a = \mu\_{A}(a,1\_{A})\\)
 
-Okay.
+Now, you might be wondering how is this more enlightening if these are saying the same thing? Well notice that we can view the first equation as a requirement for multiplication on a triple of elements, but there is a very big subtlety here!
+
+Before I state what the subtlety is, recall that \\(\mu_{A}\\) is \\(R\\)-bilinear. By the universal property of tensor products, there is an induced \\(R\\)-linear map \\(\mu\_{A}': A\otimes A\to A\\) such that on a simple tensor \\(x\otimes y\mapsto \mu\_{A}(x,y)\\). This then allows one to define an \\(R\\)-linear map on \\((A\otimes A)\otimes A\\) and \\(A\otimes (A\otimes A)\\), both to \\(A\otimes A\\), given by \\(\mu'\_{A}\otimes\text{id}\_{A}\\) and \\(\text{id}\_{A}\otimes\mu'\_{A}\\). Then what 1. above says is equivalent to
+
+\\(\mu\_{A}'\circ(\mu'\_{A}\otimes\text{id}\_{A})((a\otimes b)\otimes c)) = \mu\_{A}'\circ(\text{id}\_{A}\otimes\mu\_{A}')(a\otimes (b\otimes c))\\)
+
