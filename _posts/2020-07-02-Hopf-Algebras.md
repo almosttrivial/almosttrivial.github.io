@@ -24,5 +24,12 @@ Now, you might be wondering how is this more enlightening if these are saying th
 
 Before I state what the subtlety is, recall that \\(\mu_{A}\\) is \\(R\\)-bilinear. By the universal property of tensor products, there is an induced \\(R\\)-linear map \\(\mu\_{A}': A\otimes A\to A\\) such that on a simple tensor \\(x\otimes y\mapsto \mu\_{A}(x,y)\\). This then allows one to define an \\(R\\)-linear map on \\((A\otimes A)\otimes A\\) and \\(A\otimes (A\otimes A)\\), both to \\(A\otimes A\\), given by \\(\mu'\_{A}\otimes\text{id}\_{A}\\) and \\(\text{id}\_{A}\otimes\mu'\_{A}\\). Then what 1. above says is equivalent to
 
-\\(\mu\_{A}'\circ(\mu'\_{A}\otimes\text{id}\_{A})((a\otimes b)\otimes c)) = \mu\_{A}'\circ(\text{id}\_{A}\otimes\mu\_{A}')(a\otimes (b\otimes c))\\)
+\\((\mu\_{A}'\circ(\mu'\_{A}\otimes\text{id}\_{A}))((a\otimes b)\otimes c) = (\mu\_{A}'\circ(\text{id}\_{A}\otimes\mu\_{A}'))(a\otimes (b\otimes c))\\)
 
+Since linear maps from a tensor product are equivalent to bilinear maps from the underlying direct product, clearly \\(\mu\_{A}'\\) uniquely determines \\(\mu\_{A}\\), so I will drop the prime notation. 
+
+Now, going back to the subtlety I was promising: the equality in 1 is not really triples of elements! Indeed, the above expression in terms of tensor maps shows on the domain of the left hand side and right hand side are from \\((A\otimes A)\otimes A\\) and \\(A\otimes (A\otimes A)\\), respectively. These spaces are **not** the same spaces, they are **isomorphic!** If we turn to the language of diagrams, the associativity of our multiplication is equivalent to the commutativity in the following diagram
+
+PUT THE DIAGRAM
+
+What about our second requirement pertaining to the unit? Well to analyze this we will actually have to 
