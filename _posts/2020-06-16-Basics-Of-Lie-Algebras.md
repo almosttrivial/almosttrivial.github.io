@@ -33,15 +33,11 @@ Now given a Lie algebra homomorphism \\(\phi\\), one can define two correspondin
 
 As with groups and rings, there are three isomorphism theorems that parallel those which the reader might be familiar with in the context of groups or rings:
 
-* If \\(\phi:\mathfrak{g}\to\mathfrak{h}\\) is a homomorphism of Lie algebras, then \\(\mathfrak{g}/\text{ker}(\phi)\cong\text{im}(\phi)\\). If \\(I\\) is any ideal of \\(\mathfrak{g}\\) included in the kernel, then there exists a unique homomorphism \\(\psi:\mathfrak{g}/I\to\mathfrak{h}\\) such that
-
-\\(\psi\circ\pi = \phi\\)
-
-where \\(\pi:\mathfrak{g}\to\mathfrak{g}/I\\) is the canonical projection.
+* If \\(\phi:\mathfrak{g}\to\mathfrak{h}\\) is a homomorphism of Lie algebras, then \\(\mathfrak{g}/\text{ker}(\phi)\cong\text{im}(\phi)\\). If \\(I\\) is any ideal of \\(\mathfrak{g}\\) included in the kernel, then there exists a unique homomorphism \\(\psi:\mathfrak{g}/I\to\mathfrak{h}\\) such that \\(\psi\circ\pi = \phi\\), where \\(\pi:\mathfrak{g}\to\mathfrak{g}/I\\) is the canonical projection.
 
 * If \\(I\\) and \\(J\\) are ideals of \\(\mathfrak{g}\\) such that \\(I\subseteq J\\), then \\(J/I\\) is an ideal of \\(\mathfrak{g}/I\\) and \\((\mathfrak{g}/I)/(J/I)\\) is naturally isomorphic to \\(L/\mathfrak{g}\\).
 
-* If \\(I\) and \\(J\\) are ideals of \\(\mathfrak{g},\\) then there is a natural isomorphism between \\((I + J)/J\\) and \\(I/(I\cap J)\\).
+* If \\(I\\) and \\(J\\) are ideals of \\(\mathfrak{g},\\) then there is a natural isomorphism between \\((I + J)/J\\) and \\(I/(I\cap J)\\).
 
 
 Homomorphisms of particular interests are those from a Lie algbera to the endomorphisms of a vector space. In particular, if \\(V\\) is a complex vector space, then a Lie algera homomorphism 
