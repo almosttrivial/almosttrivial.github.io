@@ -22,7 +22,7 @@ The proof is actually done by induction on the dimension of \\(\mathfrak{g}\\), 
 
 1. Construct a codimension one ideal \\(I\\) of \\(\mathfrak{g}\\).
 2. By induction, there exists common eigenvectors for \\(I\\).
-3. Show that \\(\mathfrak{g}\\) stabilizes a space consisting of such eigenvectors from \3.
-4. Find an eigenvecor in the previous space for a particular \\(z\in\mathfrak{g}\\) which satisifes the decomposition \\(\mathfrak{g} = I\oplus\mathbb{C}z\\), where the decomposition \\(\textbf{is as Lie algebras!}\\).
+3. Show that \\(\mathfrak{g}\\) stabilizes a space consisting of such eigenvectors from 2.
+4. Find an eigenvecor in the previous space for a particular \\(z\in\mathfrak{g}\\) which satisifes the decomposition \\(\mathfrak{g} = I\oplus\mathbb{C}z\\), where the decomposition \\(\textbf{is as Lie algebras!}\\)
 
 For step one
