@@ -66,11 +66,11 @@ Allow me to preface [the proof](https://almosttrivial.github.io/posts/EngelLieCa
 
 \\(\textbf{Lemma}\\) Let \\(\phi\in\mathfrak{gl}(V)\\) be a nilpotent endomorphism. Then \\(\text{ad}(\phi)\\) is nilpotent (an element of \\(\mathfrak{gl}(\mathfrak{gl}(V))\\)!).
 
-\\(\textbf{Proof}\\) Consider the endomorphisms on \\(\mathfrak{gl}(mathfrak{gl}(V))\\) given by
+\\(\textbf{Proof}\\) Consider the endomorphisms on \\(\mathfrak{gl}(\mathfrak{gl}(V))\\) given by
 
-\\(\lambda\_{\phi}(\psi) = \phi\circ\psi\\)
+\\(\quad \lambda\_{\phi}(\psi) = \phi\circ\psi\\)
 
-\\(\rho\_{\phi}(\psi) = \psi\circ\phi\\)
+\\(\quad \rho\_{\phi}(\psi) = \psi\circ\phi\\)
 
 Since \\(\phi\\) is nilpotent, both \\(\lambda\_{\phi}\\) and \\(\rho\_{\phi}\\) are nilpotent oeprators on \\(\mathfrak{gl}(V)\\). However,
 
