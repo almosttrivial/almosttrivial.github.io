@@ -54,7 +54,7 @@ are linearly dependent. Furthermore, define the subspaces
 
 with \\(W_{0} = \\{0\\}\\). 
 
-# Consequences
+# Lie's Theorem and Other Corollaries
 
 # The Connection to Engel's Theorem
 
