@@ -32,4 +32,8 @@ Now, going back to the subtlety I was promising: the equality in 1 is not really
 
 PUT THE DIAGRAM
 
-What about our second requirement pertaining to the unit? Well to analyze this we will actually have to consider the fact that \\(A\\) is an \\(R\\) module. In particular, suppose the module structure is given by the ring homomorphism \\(\phi:R\to\text{End}(A)\\) and recall that ring homomorphism preserve identities i.e. \\(\phi(1\_{R}) = \text{id}\_{A}\\). 
+What about our second requirement pertaining to the unit? Well to analyze this we will actually have to utilize the fact that \\(A\\) is an \\(R\\)-module. In particular, suppose the module structure is given by the ring homomorphism \\(\phi:R\to\text{End}(A)\\) and recall that ring homomorphisms preserve identities i.e. \\(\phi(1\_{R}) = \text{id}\_{A}\\). Then one can consider the following map \\(\varphi: R\to A\\) given by
+
+\\(r\mapsto \phi(r)(1\_{A})\\)
+
+
