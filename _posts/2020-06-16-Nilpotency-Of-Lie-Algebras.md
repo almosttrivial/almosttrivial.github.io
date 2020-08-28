@@ -6,9 +6,9 @@ tags:
   - Lie Algebras
 ---
 
-I wrote in an earlier [blog post](https://almosttrivial.github.io/posts/SolvabilityofLieAlgebras/) that the adjoint representation of a Lie algebra was a very informative representation. This blog post will explore one of the quintessential notions of a Lie algebra which is formulated in terms of the Lie bracket (deja vu): nilpotency.
+I wrote in an earlier blog post that the adjoint representation of a Lie algebra was a very informative representation. This blog post will explore one of the quintessential notions of a Lie algebra which is formulated in terms of the Lie bracket ([deja vu](https://almosttrivial.github.io/posts/SolvabilityofLieAlgebras/)): nilpotency.
 
-First, consider the following subspaces of a Lie algebra \\(\mathfrak{g}\\):
+First, consider the following sequence of subspaces of a Lie algebra \\(\mathfrak{g}\\):
 
 \\(    \mathfrak{g}^{1} := \mathfrak{g},\quad \mathfrak{g}^{k} := \left[\mathfrak{g},\mathfrak{g}^{k}\right]\\)
 
@@ -20,29 +20,28 @@ Then the following two observations are readily proved
 
 The reader is encouraged to verify these statements themselves.
 
-The series \\(\\{\mathfrak{g}^{k}\\}\_{k\in\mathbb{N}}\\) is called the \\(\textbf{lower central series}\\). The second term in this series \\(\mathfrak{g}^{2}\\). is called the derived algebra of \\(\mathfrak{g}\\). I discuss its importance with other ideals here.
-
-Now, one may ask whether the lower central series is infinite or if it eventually stabilizes in some sense for large enough \\(k\\). This leads to the notion of nilpotency:
+The series \\(\\{\mathfrak{g}^{k}\\}\_{k\in\mathbb{N}}\\) is called the \\(\textbf{lower central series}\\) of \\(\mathfrak{g}\\). Now, one may ask whether the lower central series is infinite or if it eventually stabilizes in some sense for large enough \\(k\\). This leads to the notion of nilpotency:
 
 \\(\textbf{Definition}\\) A Lie algebra is \\(\textbf{nilpotent}\\) if there exists \\(k\\) such that \\(\mathfrak{g}^{k} = \\{0\\}\\).
 
-One sometimes says \\(\mathfrak{g}\\) is nilpotent of degree \\(k\\) if this is the minimal integer such that the lower central series terminates. Clearly, the Lie algebras of nilpotent degree 1 are trivial. For Lie algebras of solvable degree 1, recall a Lie algebra is Abelian if it equals its center:
+Now, before the aforementioned deja vu gets overwhelming, the attentive reader might notice that this series is reminisicent of the derived series, and hence nilpotency seems similar to solvability. And their suspicions are valid! Indeed, the following inclusion is trivial to show by induction
 
-\\(\textbf{Proposition}\\) \\(\mathfrak{g}^{(1)} = \\{0\\} \\) if and only if \\(\mathfrak{g}\\) is Abelian.
+\\(\mathfrak{g}^{(k-1)}\subseteq\mathfrak{g}^{k}\\)
 
-\\(\textbf{Proof}\\)    If \\(\mathfrak{g}\\) is Abelian, then for all \\(x\in\mathfrak{g}\\) one has \\([x,y] = 0\\) for every \\(y\in\mathfrak{g}\\). However, these brackets span \\(\mathfrak{g}^{(1)}\\), so indeed \\(\mathfrak{g}^{(1)} = 0 \\). Conversely, if \\(\mathfrak{g}\\) is not Abelian, then there exists \\(x\in \mathfrak{g}\backslash Z(\mathfrak{g})\\). Hence, there exists a \\(y\in\mathfrak{g}\\) such that \\([x,y]\neq 0\\) but \\([x,y]\in\mathfrak{g}^{(1)}\\) and this completes the proof. \\(\Box\\)
+Hence, every nilpotent Lie algebra is indeed solvable. However, the inclusion need not hold! Indeed, consider the two dimensional Lie algbera with basis vectors \\(x \\) and \\(y\\) with the bracket defined by \\([x,x] = [y,y] = 0 = [x,y] - y\\). Then one readily sees that
 
-Thus, all Abelian Lie algebras are certainly solvable, but the converse does not hold. There is also an intermediate notion between being Abelian and solvable called nilpotent, which I describe here. The smallest examples of a solvable Lie algebra that is not Abelian is the two dimensional \\(\mathfrak{g} = \text{Span}\_{\mathbb{C}}\\{x,y\\}\\) such that \\([x,y] = y\\). This example is actually more significant than this as there are actually only two possible two-dimensional Lie algebras: this once and the Abelian one.
+\\(\mathfrak{g}^{(2)} = [\mathfrak{g}^{(1)},\mathfrak{g}^{(1)}] = [[\mathfrak{g},\mathfrak{g}],[\mathfrak{g},\mathfrak{g}]] = [\mathbb{C}y,\mathbb{C}y] = \{0\}\\)
 
-That this example is solvable is obvious since \\(\mathfrak{g}^{(1)} = \mathbb{C}y,\\) and any one dimensional Lie algebra is Abelian. But by definition, the Lie algebra \\(\mathfrak{g}\\) is not Abelian. It is also not nilpotent! (HYPERLINK not nilpotent). Another example of a solvable Lie algebra is the collection of upper-triangular matrices (which is also not nilpotent!).
-
-We now present some powerful properties of solvability, the proofs to which are nicely presented in Humphreys (put a section/reference):
+while \\(\mathfrak{g}^{k} = \mathbb{C}y\\) for all \\(k\geq 2\\). Hence, there are some properties particular for nilpotent Lie algberas that do not necessarily hold for solvable Lie algebras, but of course any result about solvable Lie algebras also holds for nilpotent Lie algebras. In particular, we have the following three properties on nilpotency, the proofs to which are nicely presented in Humphreys (put a section/reference):
 
 * If \\(\mathfrak{g}\\) is solvable, then so are all subalgebras and homomorphic images of \\(\mathfrak{g}\\).
     
 * If \\(I\\) is a solvable ideal of \\(\mathfrak{g}\\) such that \\(\mathfrak{g}/I\\) is solvable, then \\(\mathfrak{g}\\) is also solvable.
     
 * If \\(I\\) and \\(J\\) are solvable ideals, then so is \\(I + J\\).
+
+
+
 
 The last property is a particularly important one since it implies that for any Lie algebra, there is a maximal solvable ideal, where here maximal means it is not properly contained in a solvable ideal. The existence of this unique ideal is trivial: just add all solvable ideals! This is called the \\(\textbf{radical}\\) of \\(\mathfrak{g}\\) and is denoted by \\(\text{Rad}(\mathfrak{g})\\). In the event that there are no nontrivial solvable ideals, \\(\text{Rad}(\mathfrak{g}) = \\{0\\}\\) and the Lie algebra is called \\(\textbf{semisimple}\\).
 
