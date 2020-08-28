@@ -17,7 +17,7 @@ Thus, the proofs of Engel's Theorem, Lie's Theorem, and Cartan's Criterion in fa
 
 # An Important Theorem 
 
-\\(\textbf{Theorem}\\) Let \\(\mathfrak{g}\\) be a solvable subalgebra of \\(\mathfrak{gl}(V)\\), \\(V\\) finite dimensional. If \\(V\neq \\{0\\}\\), then \\(V\\) contains a common eigenvector for all th endmorphisms in \\(\mathfrak{g}\\).
+\\(\textbf{Theorem}\\) *Let \\(\mathfrak{g}\\) be a solvable subalgebra of \\(\mathfrak{gl}(V)\\), \\(V\\) finite dimensional. If \\(V\neq \\{0\\}\\), then \\(V\\) contains a common eigenvector for all th endmorphisms in \\(\mathfrak{g}\\).*
 
 \\(\textbf{Proof}\\)
 The proof is actually done by induction on the dimension of \\(\mathfrak{g}\\), the base case being trivial with \\(\text{dim}\mathfrak{g} = 0\\). Here is the schematic for proceeding with the proof:
