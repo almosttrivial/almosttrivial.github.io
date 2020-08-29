@@ -10,30 +10,35 @@ The goal of this blog post is to present the definition and basic consequences t
 
 Now, to the best of my knowledge there are a few ways to introduce Hopf algebras. The one I will present here is sort of categorical, but not too demanding if the reader is uncomfortable with category theory. Moreover, the motivation for why one considers such objects at all is actually one of the points I emphasize [here](https://almosttrivial.github.io/posts/Hopf-Algebras-and-Tensor-Categories-a-love-story/). Otherwise, admittedly the structure I will define might seem sort of "forced;" as if I am constructing it just for fun with no purpose. Well for now, what's wrong with a little fun?
 
-To get into it, let us first recall what is an associative unital \\(R\\)-algebra over a commutative (associative and unital) ring \\(R\\). In particular, as \\(R\\) is assumed to be commutative, there is no distinction between left and right \\(R\\)-modules. Then abstractly, an associative unital \\(R\\)-algebra is a [monoid object](https://almosttrivial.github.io/posts/OnMonoidAndModuleObjects/) in the category of \\(R\\)-modules. Formulaically, one considers an \\(R\\)-module \\(A\\) with an element (suggestively denoted by) \\(1\_{A}\in A\\) and an \\(R\\)-bilinear map \\(\mu\_{A}: A\times A\to A\\) (whose image is typically written just by juxtaposition) such that the following equalities hold
+The tl;dr is that a Hopf algebra is a bialgebra with an antipode, where moreover a bialgebra is an algebra and coalgebra with a compatibility condition.
 
-1. \\( (ab)c = a(bc)\\)
-2. \\(1\_{A}a = a = a1\_{A}\\)
-
-Notice that I am not requiring the algebra to be commutative! The reader might also be use to seeing the \\(R\\)-bilinearity of \\(\mu_{A}\\) written out formulaically as well among these two conditions. Now, the reason why I even introduced the notation \\(\mu_{A}\\) is so that we can rewrite 1 and 2 in a more enlightening way:
+To flesh out the details, let us first recall what is an associative unital \\(R\\)-algebra over a commutative (associative and unital) ring \\(R\\). In particular, as \\(R\\) is assumed to be commutative, there is no distinction between left and right \\(R\\)-modules. Then abstractly, an associative unital \\(R\\)-algebra is a [monoid object](https://almosttrivial.github.io/posts/OnMonoidAndModuleObjects/) in the category of \\(R\\)-modules. Formulaically, an \\(R\\)-algebra is a triple \\((A,\mu\_{A},\iota\_{A})\\) consisting of an \\(R\\)-module \\(A\\) with an \\(R\\)-bilienar map \\(\mu\_{A}: A\otimes A\to A\\) and \\(R\\)-linear map \\(\iota\_{A}:R\to A\\) whose image is contained in the center \\(Z(A)\\), such that
 
 1. \\( \mu\_{A}(\mu_{A}(a,b),c) = \mu\_{A}(a,\mu\_{A}(b,c))\\)
-2. \\( \mu\_{A}(1\_{A},a) = a = \mu\_{A}(a,1\_{A})\\)
+2. \\( \mu\_{A}(\iota\_{A}(1\_{R}),a) = a = \mu\_{A}(a,\iota\_{A}(1\_{R}))\\)
 
-Now, you might be wondering how is this more enlightening if these are saying the same thing? Well notice that we can view the first equation as a requirement for multiplication on a triple of elements, but there is a very big subtlety here!
+Some readers might be familiar with a slightly different formulation of an associative unital \\(R\\)-algebra, but I'm sure your notion is equivalent to this. The reason why I like this formulation is that it makes it really easy to define a coalgebra. To do this, we need to point out a couple of subtleties about the above two conditions. 
 
-Before I state what the subtlety is, recall that \\(\mu_{A}\\) is \\(R\\)-bilinear. By the universal property of tensor products, there is an induced \\(R\\)-linear map \\(\mu\_{A}': A\otimes A\to A\\) such that on a simple tensor \\(x\otimes y\mapsto \mu\_{A}(x,y)\\). This then allows one to define an \\(R\\)-linear map on \\((A\otimes A)\otimes A\\) and \\(A\otimes (A\otimes A)\\), both to \\(A\otimes A\\), given by \\(\mu'\_{A}\otimes\text{id}\_{A}\\) and \\(\text{id}\_{A}\otimes\mu'\_{A}\\). Then what 1. above says is equivalent to
+Concerning condition 1, recall that \\(\mu_{A}\\) is required to be \\(R\\)-bilinear. By the universal property of tensor products, there is an induced \\(R\\)-linear map \\(\mu\_{A}': A\otimes A\to A\\) such that on a simple tensor \\(x\otimes y\mapsto \mu\_{A}(x,y)\\). This then allows one to define an \\(R\\)-linear map on \\((A\otimes A)\otimes A\\) and \\(A\otimes (A\otimes A)\\), both to \\(A\otimes A\\), given by \\(\mu'\_{A}\otimes\text{id}\_{A}\\) and \\(\text{id}\_{A}\otimes\mu'\_{A}\\). Then what condition 1 above says is equivalent to
 
 \\((\mu\_{A}'\circ(\mu'\_{A}\otimes\text{id}\_{A}))((a\otimes b)\otimes c) = (\mu\_{A}'\circ(\text{id}\_{A}\otimes\mu\_{A}'))(a\otimes (b\otimes c))\\)
 
 Since linear maps from a tensor product are equivalent to bilinear maps from the underlying direct product, clearly \\(\mu\_{A}'\\) uniquely determines \\(\mu\_{A}\\), so I will drop the prime notation. 
 
-Now, going back to the subtlety I was promising: the equality in 1 is not really triples of elements! Indeed, the above expression in terms of tensor maps shows on the domain of the left hand side and right hand side are from \\((A\otimes A)\otimes A\\) and \\(A\otimes (A\otimes A)\\), respectively. These spaces are **not** the same spaces, they are **isomorphic!** If we turn to the language of diagrams, the associativity of our multiplication is equivalent to the commutativity in the following diagram
+Now, going back to the subtlety I was promising: the equality in 1 is not on **the same triple of elements!** Indeed, the above expression in terms of tensor maps shows the domain of the left hand side and right hand side are \\((A\otimes A)\otimes A\\) and \\(A\otimes (A\otimes A)\\), respectively. These spaces are **not the same** spaces, they are **isomorphic as \\(R\\)-modules!** If we turn to the language of diagrams, the associativity of our multiplication is equivalent to the commutativity in the following diagram
 
 PUT THE DIAGRAM
 
-What about our second requirement pertaining to the unit? Well to analyze this we will actually have to utilize the fact that \\(A\\) is an \\(R\\)-module. In particular, suppose the module structure is given by the ring homomorphism \\(\phi:R\to\text{End}(A)\\) and recall that ring homomorphisms preserve identities i.e. \\(\phi(1\_{R}) = \text{id}\_{A}\\). Then one can consider the following map \\(\varphi: R\to A\\) given by
+What about our second condition pertaining to the unit? Well I also said that \\(\iota\\) had to map into the center of \\(A\\). In particular, as \\(\iota\\) is an \\(R\\)-linear map, this means that for all \\(r\in R\\) and \\(x\in A\\) we need
 
-\\(r\mapsto \phi(r)(1\_{A})\\)
+\\(\mu\_{A}(\iota(r),x) = \mu\_{A}(x,\iota(r))\\)
 
+However, \\(\iota\_{A}\\) being \\(R\\)-linear and \\(\mu\_{A}\\) being \\(R\\)-bilinear implies 
 
+\\(\mu\_{A}(\iota(r),x) = \mu\_{A}(\phi(r)(\iota(1\_{R})),x) = \phi(r)(\mu\_{A}(\iota\_{A}(1\_{R}),x)) = \phi(r)(x)\\)
+
+where the last equality follows from requiring that \\(\iota\_{A}(1\_{R})\\) be a unit. One similarly obtains that 
+
+\\(\mu\_{A}(x,\iota(r)) = \mu\_{A}(x,\phi(r)(\iota(1\_{R}))) = \phi(r)(\mu\_{A}(x,\iota\_{A}(1\_{R}))) = \phi(r)(x)\\)
+
+Thus, the 
