@@ -46,5 +46,26 @@ Thus, the image is in the center and in particular
 \begin{equation}
 \mu_{A}(\iota_{A}(r),x) = \phi(r)(x) = \mu_{A}(x,\iota_{A}(r))
 \end{equation}
-Suppose instead that one started with t
 
+Note that the center term is in fact \\(R\\)-bilinear in the arguments, hence lifts to a linear map on the corresponding tensor product. In particular, the above equality reads diagramatically as
+
+PUT THE DIAGRAM
+
+One can in fact define an associative unital \\(R\\)-algebra as a triple \\((A,\mu\_{A},\iota\_{A})\\) consisting of an \\(R\\)-module \\(A\\) with an \\(R\\)-bilinear map \\(\mu\_{A}: A\otimes A\to A\\) and an \\(R\\)-linear map \\(\iota\_{A}:R\to A\\) such that the above diagrams commute. In other words, as a monoid object in the category of \\(R\\)-modules! It should not be evident how one defines a **co**algebra: just dualize the diagrams! More specifically, a coassociative, counital \\(R\\)-coalgebra is a triple \\((A,\Delta\_{A},\varepsilon\_{A})\\) consisting of an \\(R\\)-module \\(A\\) with \\(R\\)-linear maps \\(\Delta\_{A}: A\to A\otimes A\\) and \\(\varepsilon\_{A}:A\to R\\) such that the following diagrams commute
+
+PUT THE DIAGRAM
+
+The reader should try to guess what a bialgebra is before going on.
+
+Did you guess? If you thought it would be a quintuple  \\((A,\mu\_{A},\iota\_{A},\Delta\_{A},\varepsilon\_{A})\\) consisting of an \\(R\\)-module \\(A\\) with an \\(R\\)-bilienar map \\(\mu\_{A}: A\otimes A\to A\\) and \\(R\\)-linear map's \\(\iota\_{A}:R\to A\\), \\(\Delta\_{A}: A\to A\otimes A\\), and  \\(\varepsilon\_{A}:A\to R\\), then you are almost correct! The only other part of the definition is that there is some compatibility between these operations. Namely, a bialgebra is a quintuple as expected, except it further satisfies any one of the following **equivalent conditions**
+
+1. \\(\mu\_{A}\\) and \\(\iota\_{A}\\) are coalgebra homorphisms.
+2. \\(\Delta\_{A}\\) and \\(\varepsilon\_{A}\\) are algebra homorphisms.
+
+In category theory terms, a bilagebra is a bimonoid in the category of \\(R\\)-modules; a monoid in the category of comonoids in **\\(R\\)-mod**; a comonoid in the category of monoids in **\\(R\\)-mod**. One little detail I am bypassing is what exactly is an algebra or coalgebra homomorphism. Well, these are exactly what you would imagine: \\(R\\)-linear maps that preserve the (co)algebra structure! Namely, \\(f\\) is an algebra homomorphism or coalgebra homomorphism if the following diagrams commute
+
+PUT DIAGRAMS
+
+respectively. 
+
+Alright, well we have bialgebras, so what is a Hopf algebra? 
