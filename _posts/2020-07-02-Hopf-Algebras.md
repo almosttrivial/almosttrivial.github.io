@@ -68,4 +68,8 @@ PUT DIAGRAMS
 
 respectively. 
 
-Alright, well we have bialgebras, so what is a Hopf algebra? 
+Alright, well we have bialgebras, so what is a Hopf algebra? The progression from algebra to coalgebra and then to bialgebra seems pretty natural. To summarize, we formulate the axioms of an algebra in terms of diagrams, dualize them, and then consider objects that satisfy the four diagrams above with a compability condition. So how is the "additional thing" done in order to obtain a Hopf algebra? Unfortunately, at the present home the definition seems rather forced. It will be demystified in future blog posts, so for now take it as you would like: a Hopf \\(R\\)-algebra is a sextuple \\((A,\mu\_{A},\iota\_{A},\Delta\_{A},\varepsilon\_{A}, S\_{A})\\) such that the first five maps make \\(A\\) an \\(R\\)-bialgebra, and where the \\(R\\)-linear map \\(S:A\to A\\) is such that following diagrams commute
+
+PUT DIAGRAMS
+
+Of course, one naturally has the categorical notion of Hopf monoid, but that is probably not surprising at this point.
