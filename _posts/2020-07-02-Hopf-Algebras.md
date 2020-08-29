@@ -83,7 +83,7 @@ These two families of examples are actually fundamentally important to the gener
 **Theorem** *Suppose \\(H\\) is a cocommutative Hopf algebra over a characteristic zero algebraically closed field. Then there is an isomorphism *
 
 \begin{equation\*}
- \H\cong U(P(H))\ltimes k[G(H)]
+ H\cong U(P(H))\ltimes k[G(H)]
 \end{equation\*}
  
 *where \\(P(H)\\) is the Lie algebra of primitive elements of \\(H\\), and \\(G(H)\\) is the group of grouplike elements of \\(\\).*
