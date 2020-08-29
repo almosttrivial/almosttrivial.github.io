@@ -12,14 +12,14 @@ Now, to the best of my knowledge there are a few ways to introduce Hopf algebras
 
 The tl;dr is that a Hopf algebra is a bialgebra with an antipode, where moreover a bialgebra is an algebra and coalgebra with a compatibility condition.
 
-To flesh out the details, let us first recall what is an associative unital \\(R\\)-algebra over a commutative (associative and unital) ring \\(R\\). In particular, as \\(R\\) is assumed to be commutative, there is no distinction between left and right \\(R\\)-modules. Then abstractly, an associative unital \\(R\\)-algebra is a [monoid object](https://almosttrivial.github.io/posts/OnMonoidAndModuleObjects/) in the category of \\(R\\)-modules. Formulaically, an \\(R\\)-algebra is a triple \\((A,\mu\_{A},\iota\_{A})\\) consisting of an \\(R\\)-module \\(A\\) with an \\(R\\)-bilienar map \\(\mu\_{A}: A\otimes A\to A\\) and \\(R\\)-linear map \\(\iota\_{A}:R\to A\\) whose image is contained in the center \\(Z(A)\\), such that
+To flesh out the details, let us first recall what is an associative unital \\(R\\)-algebra over a commutative (associative and unital) ring \\(R\\). In particular, as \\(R\\) is assumed to be commutative, there is no distinction between left and right \\(R\\)-modules. Then abstractly, an associative unital \\(R\\)-algebra is a [monoid object](https://almosttrivial.github.io/posts/OnMonoidAndModuleObjects/) in the category of \\(R\\)-modules. Formulaically, an \\(R\\)-algebra is a triple \\((A,\mu\_{A},\iota\_{A})\\) consisting of an \\(R\\)-module \\(A\\) with an \\(R\\)-bilienar map \\(\mu\_{A}: A\otimes A\to A\\) and an element \\(1\_{A}\\) such that
 
 1. \\( \mu\_{A}(\mu_{A}(a,b),c) = \mu\_{A}(a,\mu\_{A}(b,c))\\)
-2. \\( \mu\_{A}(\iota\_{A}(1\_{R}),a) = a = \mu\_{A}(a,\iota\_{A}(1\_{R}))\\)
+2. \\( \mu\_{A}(1\_{A},a) = a = \mu\_{A}(a,1\_{R})\\)
 
-Some readers might be familiar with a slightly different formulation of an associative unital \\(R\\)-algebra, but I'm sure your notion is equivalent to this. The reason why I like this formulation is that it makes it really easy to define a coalgebra. To do this, we need to point out a couple of subtleties about the above two conditions. 
+Some readers might be familiar with a slightly different formulation of an associative unital \\(R\\)-algebra, but I'm sure your notion is equivalent to this. The reason why I like this formulation is that it makes it really easy to define a coalgebra. To do this, we need to point out a couple of subtleties with these two conditions.
 
-Concerning condition 1, recall that \\(\mu_{A}\\) is required to be \\(R\\)-bilinear. By the universal property of tensor products, there is an induced \\(R\\)-linear map \\(\mu\_{A}': A\otimes A\to A\\) such that on a simple tensor \\(x\otimes y\mapsto \mu\_{A}(x,y)\\). This then allows one to define an \\(R\\)-linear map on \\((A\otimes A)\otimes A\\) and \\(A\otimes (A\otimes A)\\), both to \\(A\otimes A\\), given by \\(\mu'\_{A}\otimes\text{id}\_{A}\\) and \\(\text{id}\_{A}\otimes\mu'\_{A}\\). Then what condition 1 above says is equivalent to
+For the first, recall that \\(\mu_{A}\\) is required to be \\(R\\)-bilinear. By the universal property of tensor products, there is an induced \\(R\\)-linear map \\(\mu\_{A}': A\otimes A\to A\\) such that on a simple tensor \\(x\otimes y\mapsto \mu\_{A}(x,y)\\). This then allows one to define an \\(R\\)-linear map on \\((A\otimes A)\otimes A\\) and \\(A\otimes (A\otimes A)\\), both to \\(A\otimes A\\), given by \\(\mu'\_{A}\otimes\text{id}\_{A}\\) and \\(\text{id}\_{A}\otimes\mu'\_{A}\\). Then the associativity is equivalent to
 
 \\((\mu\_{A}'\circ(\mu'\_{A}\otimes\text{id}\_{A}))((a\otimes b)\otimes c) = (\mu\_{A}'\circ(\text{id}\_{A}\otimes\mu\_{A}'))(a\otimes (b\otimes c))\\)
 
@@ -29,16 +29,21 @@ Now, going back to the subtlety I was promising: the equality in 1 is not on **t
 
 PUT THE DIAGRAM
 
-What about our second condition pertaining to the unit? Well I also said that \\(\iota\\) had to map into the center of \\(A\\). In particular, as \\(\iota\\) is an \\(R\\)-linear map, this means that for all \\(r\in R\\) and \\(x\in A\\) we need
+For the second condition, recall that having this unit allows one to define the following \\(R\\)-linear map \\(\iota\_{A}: R\to A\\) given by \\(r\mapsto \phi(r)(1\_{A})\\) where \\(\phi: R\to\text{End}(A)\\) is the \\(R\\)-module structure on \\(A\\). In particular, note that since \\(\phi\\) is a ring homomrphism and preserves the identity
 
-\\(\mu\_{A}(\iota(r),x) = \mu\_{A}(x,\iota(r))\\)
+\\(\iota\_{A}(1\_{R}) = \phi(1\_{R})(1\_{A}) = \text{id}\_{A}(1\_{A}) = 1\_{A}\\)
 
-However, \\(\iota\_{A}\\) being \\(R\\)-linear and \\(\mu\_{A}\\) being \\(R\\)-bilinear implies 
+From this, it follows that \\(\iota\_{A}\\) has its image contained in the center of \\(A\\):
 
-\\(\mu\_{A}(\iota(r),x) = \mu\_{A}(\phi(r)(\iota(1\_{R})),x) = \phi(r)(\mu\_{A}(\iota\_{A}(1\_{R}),x)) = \phi(r)(x)\\)
+\\(\mu\_{A}(\iota\_{A}(r),x) = \mu\_{A}(\phi(r)(\iota\_{A}(1\_{R})),x) = \phi(r)(\mu\_{A}(1\_{A},x)) = \phi(r)(x)\\)
 
-where the last equality follows from requiring that \\(\iota\_{A}(1\_{R})\\) be a unit. One similarly obtains that 
+where the equalities come from the \\(R\\)-linearity of \\(\iota\_{A}\\), the \\(R\\)-bilinearity of \\(\mu\_{A}\\), and that \\(1\_{A}\\) is a unit. Similarly
 
-\\(\mu\_{A}(x,\iota(r)) = \mu\_{A}(x,\phi(r)(\iota(1\_{R}))) = \phi(r)(\mu\_{A}(x,\iota\_{A}(1\_{R}))) = \phi(r)(x)\\)
+\\(\mu\_{A}(x,\iota\_{A}(r)) = \mu\_{A}(x,\phi(r)(\iota\_{A}(1\_{R}))) = \phi(r)(\mu\_{A}(x,1\_{A})) = \phi(r)(x)\\)
 
-Thus, the 
+Thus, the image is in the center and in particular
+
+\\(\mu\_{A}(\iota\_{A}(r),x) = \phi(r)(x) = \mu\_{A}(x,\iota\_{A}(r))\\)
+
+
+
