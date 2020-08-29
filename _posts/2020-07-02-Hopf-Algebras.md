@@ -43,7 +43,8 @@ where the equalities come from the \\(R\\)-linearity of \\(\iota\_{A}\\), the \\
 
 Thus, the image is in the center and in particular
 
-\\(\mu\_{A}(\iota\_{A}(r),x) = \phi(r)(x) = \mu\_{A}(x,\iota\_{A}(r))\\)
-
-
+\begin{equation}
+\mu_{A}(\iota_{A}(r),x) = \phi(r)(x) = \mu_{A}(x,\iota_{A}(r))
+\end{equation}
+Suppose instead that one started with t
 
