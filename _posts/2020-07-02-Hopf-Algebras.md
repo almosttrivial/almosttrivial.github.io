@@ -80,12 +80,12 @@ EQUATIONS
 
 These two families of examples are actually fundamentally important to the general theory of Hopf algebras because of the following theorem attributed to Cartier, Gabriel, and Kostant:
 
-**Theorem** *Suppose \\(H\\) is a cocommutative Hopf algebra over a characteristic zero algebraically closed field. Then there is an isomorphism *
+**Theorem** *Suppose \\(H\\) is a cocommutative Hopf algebra over a characteristic zero algebraically closed field \\(k\\). Then there is an isomorphism *
 
 \begin{equation\*}
  H\cong U(P(H))\ltimes k[G(H)]
 \end{equation\*}
  
-*where \\(P(H)\\) is the Lie algebra of primitive elements of \\(H\\), and \\(G(H)\\) is the group of grouplike elements of \\(\\).*
+*where \\(P(H)\\) is the Lie algebra of primitive elements of \\(H\\) and \\(G(H)\\) is the group of grouplike elements of \\(\\).*
 
 The proof is surprisingly straightforward and provided in [Etingof](LINK). I would like to make a blog post about this since I have never really hashed out the details; I was just shocked when I read this and never forgot. Indeed, an immediate corollary is if the only grouplike element is the identity of \\(H\\), then \\(H\\) is actually a universal enveloping algebra.
