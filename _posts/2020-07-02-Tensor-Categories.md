@@ -20,18 +20,18 @@ A **monoidal category** is a sextuple \\((\mathcal{C},\otimes,1,\alpha,\rho,\lam
 \begin{equation\*}
    \alpha: \otimes\circ(\otimes\times\text{id}\_{\mathcal{C}})\to \otimes\circ(\text{id}\_{\mathcal{C}}\times\otimes)
 \end{equation\*}
-
 \begin{equation\*}
    \rho: -\otimes 1\to \text{id}\_{\mathcal{C}}
 \end{equation\*}
-
 \begin{equation\*}
    \lambda: 1\otimes -\to \text{id}\_{\mathcal{C}}
 \end{equation\*}
 
 such that the components of the natural isomorphisms make the following diagrams commute
 
+PUT DIAGRAMS
 
+The diagrams are called the **pentagon identity** and **triangle identity** for obvious reasons. The bifunctor \\(\otimes\\) is called the **tensor product of \\(\mathcal{C}\\)**, the object \\(1\\) is called the **unit object**, and the natural isomorphisms \\(\alpha,\rho,\lambda\\) are called the **associatora**, the **right-unitor**, and the **left-unitor**.
 
 
 
