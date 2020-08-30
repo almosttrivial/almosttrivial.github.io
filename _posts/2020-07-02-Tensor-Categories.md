@@ -31,8 +31,9 @@ such that the components of the natural isomorphisms make the following diagrams
 
 PUT DIAGRAMS
 
-The diagrams are called the **pentagon identity** and **triangle identity** for obvious reasons. The bifunctor \\(\otimes\\) is called the **tensor product of \\(\mathcal{C}\\)**, the object \\(1\\) is called the **unit object**, and the natural isomorphisms \\(\alpha,\rho,\lambda\\) are called the **associatora**, the **right-unitor**, and the **left-unitor**.
+The diagrams are called the **pentagon identity** and **triangle identity** for obvious reasons. The bifunctor \\(\otimes\\) is called the **tensor product of \\(\mathcal{C}\\)**, the object \\(1\\) is called the **unit object**, and the natural isomorphisms \\(\alpha,\rho,\lambda\\) are called the **associatora**, the **right-unitor**, and the **left-unitor**. There is an equivalent formulation in [Etingof](REFERENCE) that allows one to define a monoidal category as a quintuple, but I prefer this formulation more.
 
+Some examples of monoidal categories include **Ab, \\(R\\)-mod,** and **\\(\textbf{Vec}\_{k}\\)**. More deeply, the category of representations of a complex Lie algebra or of a finite group also forms a monoidal category.
 
 
 
