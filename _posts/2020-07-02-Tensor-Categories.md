@@ -17,15 +17,17 @@ Okay, well as the names suggest, whether I call it a monoidal category or tensor
 
 A **monoidal category** is a sextuple \\((\mathcal{C},\otimes,1,\alpha,\rho,\lambda)\\) consisting of a (locally small) cateogry \\(\mathcal{C}\\) with a bifunctor \\(\otimes: \mathcal{C}\times\mathcal{C}\to\mathcal{C}\\), three natural isomorphisms
 
-\begin{equation*}
+\begin{equation\*}
    \alpha: \otimes\circ(\otimes\times\text{id}\_{\mathcal{C}})\to \otimes\circ(\text{id}\_{\mathcal{C}}\times\otimes)
-\end{equation*}
-\begin{equation*}
+\end{equation\*}
+
+\begin{equation\*}
    \rho: -\otimes 1\to \text{id}\_{\mathcal{C}}
-\end{equation*}
-\begin{equation*}
-   \lambda: 1\otimes -\to \text{id}\_{\mathcal{C}}\newline
-\end{equation*}
+\end{equation\*}
+
+\begin{equation\*}
+   \lambda: 1\otimes -\to \text{id}\_{\mathcal{C}}
+\end{equation\*}
 
 where \\(1\in\text{Ob}(\mathcal{C})\\) is called the **unit object**, such that the components of the natural isomorphisms make the following diagrams commute
 
