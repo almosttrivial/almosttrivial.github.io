@@ -1,10 +1,10 @@
 ---
-title: 'What is a Tensor Category?'
+title: 'What is a Monoidal Category?'
 date: 2020-07-02
-permalink: /posts/Tensor-Categories/
+permalink: /posts/Monoidal-Categories/
 tags:
   - Category Theory
-  - Tensor Categories
+  - Monoidal Categories
 ---
 
 This blog post should be accompanied with this post on [Hopf algebras](https://almosttrivial.github.io/posts/Hopf-Algebras/), but the order is up to you. At least, I recommend you read them both before proceeding to a couple of my future blog posts where I discuss their connection. Of course, there is plenty of theory one can develop for one object independent from the other. The theory of Hopf algebras and of Tensor Categories is very rich and can be studied independently from each other if the reader wants.
@@ -18,10 +18,15 @@ Okay, well as the names suggest, whether I call it a monoidal category or tensor
 A **monoidal category** is a sextuple \\((\mathcal{C},\otimes,1,\alpha,\rho,\lambda)\\) consisting of a (locally small) cateogry \\(\mathcal{C}\\) with a bifunctor \\(\otimes: \mathcal{C}\times\mathcal{C}\to\mathcal{C}\\), three natural isomorphisms
 
 \begin{equation*}
-   \alpha: \otimes\circ(\otimes\times\text{id}\_{\mathcal{C}})\to \otiems\circ(\text{id}\_{\mathcal{C}}\times\otimes)\newline
-   \rho: -\otimes 1\to \text{id}\_{\mathcal{C}}\newline
+   \alpha: \otimes\circ(\otimes\times\text{id}\_{\mathcal{C}})\to \otimes\circ(\text{id}\_{\mathcal{C}}\times\otimes)
+\end{equation*}
+\begin{equation*}
+   \rho: -\otimes 1\to \text{id}\_{\mathcal{C}}
+\end{equation*}
+\begin{equation*}
    \lambda: 1\otimes -\to \text{id}\_{\mathcal{C}}\newline
 \end{equation*}
+
 where \\(1\in\text{Ob}(\mathcal{C})\\) is called the **unit object**, such that the components of the natural isomorphisms make the following diagrams commute
 
 
