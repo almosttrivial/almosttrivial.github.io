@@ -6,4 +6,4 @@ tags:
   - Lie Algebras
 ---
 
-This post will show up by default. To disable scheduling of future posts, edit `config.yml` and set `future: false`. 
+#https://mathoverflow.net/questions/149391/on-radicals-of-a-lie-algebra and elaborating
