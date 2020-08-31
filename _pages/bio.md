@@ -3,6 +3,9 @@ permalink: /bio/
 title: "Bio"
 permalink: /bio/
 author_profile: true
+redirect_from: 
+  - /bio/
+  - /bio.html
 ---
 
 
