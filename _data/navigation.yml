@@ -11,5 +11,8 @@ main:
   - title: "Bio"
     url: /bio/
     
+  - title: "Resources"
+    url: /resources/
+
   - title: "Guide"
     url: /markdown/
