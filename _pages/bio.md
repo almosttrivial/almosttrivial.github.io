@@ -1,5 +1,5 @@
 ---
-layout: archive
+permalink: /bio/
 title: "Bio"
 permalink: /bio/
 author_profile: true
