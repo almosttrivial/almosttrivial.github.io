@@ -3,9 +3,7 @@ permalink: /
 title: "Introduction"
 excerpt: "Introduction"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+
 ---
 
 Hey there! This is my personal website dedicated to the mathematics I do, the mathematics I love, and the intersection therein. 
