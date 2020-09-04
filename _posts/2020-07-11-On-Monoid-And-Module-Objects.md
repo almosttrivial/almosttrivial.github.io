@@ -63,13 +63,13 @@ If one considers \\(\mathcal{C} = \textbf{Set}\\), then \\(f\\) is indeed a mono
 
 Now with this, one can take the subcategory \\(\textbf{Mon}\_{\mathcal{C}}\\) of \\(\mathcal{C}\\). This will not necessarily be a full subcategory because the morphisms have to satisfy the above compatibility with the monoid object maps. There is analogously the subcategory \\(\textbf{CoMon}\_{\mathcal{C}}\\) of comonoid objects of \\(\mathcal{C}\\). What is interesting is that as \\(\mathcal{C}\\) is a monoidal category, one might wonder whether either \\(\textbf{Mon}\_{\mathcal{C}}\\) or \\(\textbf{CoMon}\_{\mathcal{C}}\\) is similarly monoidal. I recommend the reader to show that the unit object is a monoid object. However, the tensor product of two monoid objects need not be a monoid object. Even if they were, it is not immediate that the associator and left- and right-unitors of the original monoidal category should be morphisms of monoid objects as well.
 
-Interestingly enough, if we further assume we are looking at monoid objects in symmetric monoidal categories, then suddenly we may indeed show that the categories \\(\textbf{Mon}\_{\mathcal{C}}\\) and \\(\textbf{CoMon}\_{\mathcal{C}}\\) are monoidal categories! At the very least, proving that the tensor product of monoid objects is a monoid object becomes very straightforward. 
+Interestingly enough, if we further assume we are looking at monoid objects in symmetric monoidal categories, then suddenly we may indeed show that the categories \\(\textbf{Mon}\_{\mathcal{C}}\\) and \\(\textbf{CoMon}\_{\mathcal{C}}\\) are monoidal categories! At the very least, proving that the tensor product of monoid objects is a monoid object becomes very straightforward. What about making tensor products of monoid objects in a braided monoidal category? This seems like an interesting question I might explore in a future blog post.
 
 What about the third thing I mentioned one could do with monoid objects? Well, classical monoids have a representation theory, and so do the instances of monoid objects in \\(R\\)-mod. So with this, one can attempt to abstract this and define a module object for a monoid object in a monoidal category! 
 
 As with the motivation for defining a monoid object, I will formulate the definition of a (left) module for a classical monoid in terms of diagrams, and then just replace \\(\times\\) with \\(\otimes\\) and call it a day. 
 
-Thus, let \\((M,\mu,\iota)\\) be a monoid in the classical sense i.e. a monoid object in \\(\textbf{Set}\\). Then a left \\(M\\)-module is classically a set with a set with a monoid homomorphism \\((A,\phi: M\to\text{End}\_{\textbf{Set}}(A))\\). In particular, element-wise one has
+Thus, let \\((M,\mu,\iota)\\) be a monoid in the classical sense i.e. a monoid object in \\(\textbf{Set}\\). Then a left \\(M\\)-module is classically a set with a monoid homomorphism \\(\phi: M\to\text{End}\_{\textbf{Set}}(A)\\). In particular, element-wise one has
 
 \begin{align\*}
     \phi(xy)(a) & = \phi(x)(\phi(y)(a))\newline
