@@ -88,7 +88,7 @@ And as we did with monoid objects, one can similarly define the dual notion of c
 
 ![](/images/morphisms of modules.PNG)
 
-Upon doing so, one finds that the module objects in examples above of monoid objects are the classical definition of modules e.g. a module object for a monoid object in \\(R\\)-\\(\textbf{mod}\\) is the usual notion of module for an \\(R\\)-algebra \\(A\\).
+Upon doing so, one finds that the module objects in the above examples of monoid objects are the classical definition of modules e.g. a module object for a monoid object in \\(R\\)-\\(\textbf{mod}\\) is the usual notion of module for an \\(R\\)-algebra \\(A\\).  
 
 In conclusion, categorification is awesome. Seemingly different objects that are defined and motivated by different circumstances are in a sense categorically the same. Whether it is a ring, an algebra over a field or a ring, or even a monad; these objects have the same categorical structure. Moreover, each of these are typically studied by looking at their notion of modules, but even these are also the same structure categorically. However, I am not saying that the categories for which these monoid objects exist are themselves necessarily the same or similar, beyond being monoidal. For instance, the categories \\(\textbf{Mon}\\) and \\(\textbf{Set}\\) are not \\(\textbf{Ab}\\)-enriched while \\(R\\)-\\(\textbf{mod}\\) is an abelian category.
 
