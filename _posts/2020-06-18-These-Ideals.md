@@ -21,4 +21,4 @@ This post is meant to explore certain relations satisfied between these ideals a
    \mathfrak{s}\subseteq \text{Nil}(\mathfrak{g})\subseteq \mathfrak{g}^{\perp}\subseteq \text{Rad}(\mathfrak{g})
 \end{equation}
 
-Throughout this post, I am assuming my Lie algebra \\(\mathfrak{g}\\) is finite-dimensional and over a field \\(\mathbb{K}\\), which may have to be algebraically closed and characteristic zero at times.
+Throughout this post, I am assuming my Lie algebra \\(\mathfrak{g}\\) is finite-dimensional and over a characteristic zero field \\(\mathbb{K}\\), which may have to be algebraically closed at times.
