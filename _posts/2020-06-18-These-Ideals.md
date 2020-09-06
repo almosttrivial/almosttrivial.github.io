@@ -22,3 +22,42 @@ This post is meant to explore certain relations satisfied between these ideals a
 \end{equation}
 
 Throughout this post, I am assuming my Lie algebra \\(\mathfrak{g}\\) is finite-dimensional and over a characteristic zero field \\(\mathbb{K}\\), which may have to be algebraically closed at times.
+
+**Proposition** The maximal solvable ideal is the orthogonal complement to the derived subalgebra with respect to the Killing form i.e. \\(\text{Rad}(\mathfrak{g})) = \[\mathfrak{g},\mathfrak{g}\]^{\perp}\\).
+
+**Proof**
+
+
+
+
+**Proposition** \\(\[\mathfrak{g},\text{Rad}(\mathrak{g})\] = \[\mathfrak{g},\mathfrak{g}\]\cap\text{Rad}(\mathfrak{g})\\).
+
+**Proof**
+
+
+
+
+**Proposition** \\(\[\mathfrak{g},\text{Rad}(\mathrak{g})\] = \mathfrak{s}\\).
+
+**Proof**
+
+
+
+
+**Proposition** \\(\mathfrak{s}\subseteq \text{Nil}(\mathfrak{g})\\).
+
+**Proof**
+
+
+
+
+**Proposition** \\(\text{Nil}(\mathfrak{g})\subseteq \mathfrak{g}^{\perp}\\).
+
+**Proof**
+
+
+
+
+**Proposition** \\(\mathfrak{g}^{\perp}\subseteq \text{Rad}(\mathfrak{g})\\).
+
+**Proof**
