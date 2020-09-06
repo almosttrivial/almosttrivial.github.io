@@ -54,7 +54,7 @@ It clearly suffices to prove that \\(\mathfrak{s}\\) is nilpotent, which by Enge
 **Proposition** \\(\text{Nil}(\mathfrak{g})\subseteq \mathfrak{g}^{\perp}\\).
 
 **Proof**
-To proceed we need only prove that every element of the nilradical is orthogonal to all of \\(\mathfraK{g}\\).
+To proceed we need only prove that every element of the nilradical is orthogonal to all of \\(\mathfrak{g}\\).
 
 
 
