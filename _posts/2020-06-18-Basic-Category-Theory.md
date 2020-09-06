@@ -39,5 +39,9 @@ Now, before exploring the versatility of categories and giving them more structu
 F(\text{id}\_{X}) = \text{id}\_{F(X)},\quad F(\psi\circ\phi) = F(\psi)\circ F(\phi)
 \end{equation\*}
 
-where by an abuse of notation the compositions of the two categories are denoted by the same composition.
+where by an abuse of notation the compositions of the two categories are denoted by the same composition. As the astute reader might hypothesize, one can actually form the *category of categories* by taking the collection of morphisms to be functors; this category is denoted by **Cat**. It is actually something more called a 2-category because of *morphisms between morphisms* called natural transformations, which I will get to in a moment.
+
+Of course the reader is familiar with several categories: think of any math class you've taken! For instance, **Set** is the category with objects as sets and the morphisms being set maps; **Grp** is the category of groups with morphisms being group homomorphisms; **Ab** is the category of Abelian groups with morphisms being group homomrphisms. This last example is actually the first instance of a **full subcategory**. This is a category whose objects are a subcollection of another category, but it is called **full** because the morphisms between this subcollection are precisely the morphisms in the bigger category i.e. group homomorphisms of Abelian groups are still just group homomorphisms! An example a subcategory that is not full is **R-mod**, which consists of left \\(R\\)-modules for a ring \\(R\\) as objects and \\(R\\)-linear maps as morphisms. This is certainly a subcategory of **Ab** since every left \\(R\\)-module is by definition an Abelian group, but not every group homomorphism is necessarily an \\(R\\)-linear map.
+
+While all of these examples and more are instances of locally small categories, there small categories which are very important! They in fact lead us to the notion of universal objects, limits, etc. The ones I am teasing are called **finite** categories, which consists of a finite set of objects and a finite set of morphisms between them.
 
