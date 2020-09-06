@@ -6,14 +6,6 @@ tags:
   - Category Theory
 ---
 
-* Definie (co)limints
-* Define (co)products and (co)equalizers
-* Mention (co)complete and the equivalences
-* Natural Transformations
-* Higher Category Theory
-* Monoidal, Rigid, Braided, Ribbon, and Modular Categories
-
-
 My first exposure to category theory was back in my first undergraduate course on abstract algebra. It was certainly ambitious of my professor to introduce students to group theory through a categorical lens, but I was absolutely hooked. Even now my research interests are very categorical in nature. However, there was one definition above all else that seemed a little more complicated to grasp: the notion of a **limit**. I was always comfortable with universal properties, but for the longest time it did not sink in how limits were just instances of universal properties. Interestingly, the picture can be generalized to a slightly more involved setting, but it truly compactifies and captures the essence of what a limit really is.
 
 In this post I will present the usual definition of a limit, then recall some other categorical definitions and show from them what a limit really is. I am of course assuming the reader has familiarity with basic notions of category theory. If you would like a review, I recommend taking a tour of the [nLab](https://ncatlab.org/nlab/show/HomePage), reading the classic book by [Mac Lane](https://www.springer.com/gp/book/9780387984032), or more briefly going through [these notes](https://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf).
@@ -60,3 +52,5 @@ INSERT THE DIAGRAM
 This construction might be familiar to those who know about **comma categories**, but I do not need this much generality here and will thus now discuss it. Indeed, now that we have recalled universal morphisms, we are done! Returning to our previous setup, we had a diagram \\(F:J\to\mathcal{C}\\), which is nothing more than an object in the category \\(C^{J}\\). We then defined the constant functor \\(\Delta:\mathcal{C}\to \mathcal{C}^{J}\\), and are able to phrase a limit as being a natural transformation \\((\Delta(L),\psi)\\) to \\(F\\) such that all other natural transformations \\((\Delta(A),\phi)\\) to \\(F\\) uniquely factor through \\((\Delta(L),\psi)\\) i.e.
 
 **A limit of \\(F\\) is a universal morphism from \\(\Delta\\) to \\(F\\)**.
+
+This might seem more complicated to some, but in my opinion it makes sense to actually define a limit first as a universal morphism from this constant functor, and then *simplify* and *unpackage* what all of this means. One indeed obtains the usual definition of a limit, but again that definition seems sort of odd. Universal morphisms also provide more intuition. A universal morphism from a functor to an object is just the existence of an object in one category whose image is closest to a prescribed object in the other category. This is why all other images *factor through this closest one*. Thinking about limits, we are looking for a constant functor that is closest to the given diagram, but the constant functor is equivalent to a single object. This furthers my previous comment that a limit is essentially an object that combines, or perhaps embodies, all of the structure of \\(J\\). Examples of limits like products, equalizers, and pullbacks also agree with this perspective.
