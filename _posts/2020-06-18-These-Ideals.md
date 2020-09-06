@@ -8,7 +8,7 @@ tags:
 
 The study of complex semisimple Lie algebras is a very well understand and marvelous thing. From the study of the structure of a semisimple Lie algbera, to their classification, and to their representation theory via highest weights; I recommend [Humphreys](https://www.springer.com/gp/book/9780387900537) for the interested reader. To those with familiarity whether through a formal class or self-studying, there are certain structures along the way that should have made an impression on you. In particular, certain ideals of a Lie algebra are very prolific and determine much of the structure of the overall Lie algebra. These include
 
-1. The (solvable) radical, commonly denoted \\(\text{Rad}(\mathfrak{g})\\).
+1. The maximal solvable radical, commonly denoted \\(\text{Rad}(\mathfrak{g})\\).
 2. The Killing form radical, commonly denoted \\(\mathfrak{g}^{\perp}\\).
 3. The nilradical, or maximal nilpotent ideal, commonly denoted \\(\text{Nil}(\mathfrak{g})\\).
 4. The nilpotent radical, commonly denoted \\(\mathfrak{s}\\).
