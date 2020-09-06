@@ -30,14 +30,14 @@ Throughout this post, I am assuming my Lie algebra \\(\mathfrak{g}\\) is finite-
 
 
 
-**Proposition** \\(\[\mathfrak{g},\text{Rad}(\mathrak{g})\] = \[\mathfrak{g},\mathfrak{g}\]\cap\text{Rad}(\mathfrak{g})\\).
+**Proposition** \\(\[\mathfrak{g},\text{Rad}(\mathfrak{g})\] = \[\mathfrak{g},\mathfrak{g}\]\cap\text{Rad}(\mathfrak{g})\\).
 
 **Proof**
 
 
 
 
-**Proposition** \\(\[\mathfrak{g},\text{Rad}(\mathrak{g})\] = \mathfrak{s}\\).
+**Proposition** \\(\[\mathfrak{g},\text{Rad}(\mathfrak{g})\] = \mathfrak{s}\\).
 
 **Proof**
 
@@ -47,17 +47,21 @@ Throughout this post, I am assuming my Lie algebra \\(\mathfrak{g}\\) is finite-
 **Proposition** \\(\mathfrak{s}\subseteq \text{Nil}(\mathfrak{g})\\).
 
 **Proof**
-
+It clearly suffices to prove that \\(\mathfrak{s}\\) is nilpotent, which by Engel's theorem is equivalent to proving each element is ad-nilpotent.
 
 
 
 **Proposition** \\(\text{Nil}(\mathfrak{g})\subseteq \mathfrak{g}^{\perp}\\).
 
 **Proof**
-
+To proceed we need only prove that every element of the nilradical is orthogonal to all of \\(\mathfraK{g}\\).
 
 
 
 **Proposition** \\(\mathfrak{g}^{\perp}\subseteq \text{Rad}(\mathfrak{g})\\).
 
 **Proof**
+It suffices to prove that the Killing form radical is a solvable ideal.
+
+
+Note that when the Lie algebra is semisimple all of the ideals coincide: they are in fact all zero! However, there are cases for which some ideals are zero while others are nonzero. For instance, 
