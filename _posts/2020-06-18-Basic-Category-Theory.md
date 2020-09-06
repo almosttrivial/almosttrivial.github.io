@@ -44,4 +44,16 @@ As trivial as this insertion of the identity morphism might appear, it immediate
 
 Well this is it! Now every cone is in fact nothing more than a natural transformation from a choice of a constant functor! That is, \\((A,\phi)\\) is a cone to \\(F\\) if and only if \\(\phi:\Delta(A)\to F\\) is a natural transformation. If every cone is simply a natural transformation, then what does this say about limits? 
 
-A limit \\((L,\psi)\\) is still a cone to \\(F\\), so we know that \\(\psi:\Delta(L)\to F\\) is a natural transformation. Moreover, given any other cone \\((A,\phi)\\) to \\(F\\), there exists a unique morphism \\(\theta:A\to L\\) such that \\(\phi\_{X} = \psi\_{X}\circ\theta\\) for every object \\(X\\) of \\(J\\).
+Now that we have natural transformations, let us take one step further in this generalization and define the following functor: \\(\Delta:\mathcal{C}\to\mathcal{C}^{J}\\), where the codomain category is the category of functors from \\(J\\) to \\(\mathcal{C}\\), and \\(\Delta: A\mapsto \Delta(A)\\). One might be wondering why would I create such a functor? Weren't the \\(\Delta(A)\\) functors enough? Now I have a functor into functors??? Yes, this is exactly what we're missing! One must recall that functors do not simply associate objects between categories, they must also map morphisms in a *compatible* way!
+
+In particular, in order for my proposed functor \\(\Delta\\) to actually be a functor, I need to define what happens to any morphism \\(\varphi:A\to B\\). Well, the target category is a category of functors, so \\(\Delta(\varphi):\Delta(A)\to \Delta(B)\\) must be a *natural transformation*. Thus, it is equivalent to define a family of component morpshisms that satisfy the definition of natural transformation. To this end, if \\(X\\) and \\(Y\\) are objects of \\(J\\), then \\(\Delta(A)(X) = A = \Delta(A)(Y)\\) and \\(\Delta(B)(X) = B = \Delta(B)(Y)\\). Moreover, for any morphism \\(f:X\to Y\\) we have \\(\Delta(A)(f) = \text{id}\_{A}\\) and \\(\Delta(B)(f) = \text{id}\_{B}\\). Hence, the components \\(\Delta(\varphi)\_{X}\\) must satisfy
+
+\begin{equation\*}
+   \text{id}\_{B}\circ\Delta(\varphi)\_{X} = \Delta(\varphi)\_{Y}\circ\text{id}\_{A}
+\end{equation\*}
+which is to say, every component morphism *needs to be the same*! Well, given that we started with a morphism \\(\varphi:A\to B\\), we can just take the natural transformation whose components are all \\(\varphi\\)! Thus, \\(\Delta\\) is a functor defined by mapping each object of \\(\mathcal{C}\\) to the corresponding constant functor, as well as mapping each morphism in \\(\mathcal{C}\\) to the constant natural transformation whose components are all the input morphism!
+
+We are now at the crux of compactly expressing what a limit is. To recap, a cone to \\(F\\) is just a natural transformation from a constant functor to \\(F\\). Moreover, there is a functor \\(\Delta:\mathcal{C}\to\mathca{C}^{J}\\) which maps every object to their respective constant functor, and sends every morphism to an analogous constant natural transformation. Now, the initial functor \\(F\\) is simply *an object* in \\(\mathcalC{C}^{J}\\). 
+
+
+
