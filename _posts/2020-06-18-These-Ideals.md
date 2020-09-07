@@ -23,10 +23,10 @@ This post is meant to explore certain relations satisfied between these ideals a
 
 Throughout this post, I am assuming my Lie algebra \\(\mathfrak{g}\\) is finite-dimensional and over a characteristic zero field \\(\mathbb{K}\\), which may have to be algebraically closed at times.
 
-**Proposition** The maximal solvable ideal is the orthogonal complement to the derived subalgebra with respect to the Killing form i.e. \\(\text{Rad}(\mathfrak{g})) = \[\mathfrak{g},\mathfrak{g}\]^{\perp}\\).
+**Proposition** The maximal solvable ideal is the orthogonal complement to the derived subalgebra with respect to the Killing form i.e. \\(\text{Rad}(\mathfrak{g}) = \[\mathfrak{g},\mathfrak{g}\]^{\perp}\\).
 
 **Proof**
-
+This is the result of two exercises in Humphreys. However, proposition 5 in Further Properties of the Radical in Bourbaki is far more enlightening.
 
 
 
@@ -37,10 +37,10 @@ Throughout this post, I am assuming my Lie algebra \\(\mathfrak{g}\\) is finite-
 
 
 
-**Proposition** \\(\[\mathfrak{g},\text{Rad}(\mathfrak{g})\] = \mathfrak{s}\\).
+**Proposition** \\(\[\mathfrak{g},\mathfrak{g}\]\cap\text{Rad}(\mathfrak{g}) = \mathfrak{s}\\).
 
 **Proof**
-
+Every linear form on a Lie algebra which is zero on its derived subalgebra is a simple representation, so s is contained in the derived subalgebra. It is also "contained in the largest nilpotent ideal of the Lie algebra." That gives one inclusion. For the reverse inclusion, it suffices to show that every simple representation of the Lie algebra is zero on this intersection.
 
 
 
