@@ -63,7 +63,8 @@ First, one calls a subset \\(\Pi\\) of \\(\Phi\\) a **positive system** if it co
 
 Call a subset \\(\Delta\\) of \\(\Phi\\) a **simple system** if \\(\Delta\\) is a basis for the \\(\mathbb{R}\\)-span of \\(\Phi\\) such that every root is a linear combination of \\(\Delta\\) with coefficients *all of the same sign*. The elements of \\(\Delta\\) are called **simple roots**. While \\(\Delta\\) being a basis for \\(\text{Span}\_{\mathbb{R}}\Phi\\) is already a bit of a tall order, seeing as how \\(\Phi\\) might not even necessarily span \\(V\\), the latter requirement of same sign coefficients is even more demanding. The surprising thing though is that simple systems actually exist!
 
-**Theorem** a. If \\(\Delta\\) is a simple system in \\(\Phi\\), then there is a unique positive system containing \\(\Delta\\).
+**Theorem**
+(a). If \\(\Delta\\) is a simple system in \\(\Phi\\), then there is a unique positive system containing \\(\Delta\\).
 
 (b). Every positive system \\(\Pi\\) in \\(\Phi\\) contains a unique simple system.
 
