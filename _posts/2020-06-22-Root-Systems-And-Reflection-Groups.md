@@ -15,12 +15,12 @@ However, root systems arise beyond just this classical study, appearing in more 
 
 The theory of root systems takes place in a real Euclidean space \\(V\\) equipped with a positive-definite symmetric bilinear form \\((\lambda,\mu)\\). In such a space, one can associate to any vector \\(\alpha\in V\\) the linear operator of **reflection** along \\(\alpha\\) i.e. the linear map
 
-\begin{equation*}
-   s_{\alpha}(\lambda) := \lambda - \frac{2(\lambda,\alpha)}{(\alpha,\alpha)}\alpha
-\end{equation*}
+\begin{equation\*}
+   s\_{\alpha}(\lambda) := \lambda - \frac{2(\lambda,\alpha)}{(\alpha,\alpha)}\alpha
+\end{equation\*}
 
 Note that this operator fixes pointwise every vector orthogonal to \\(\alpha\\) and send \\(\alpha\mapsto-\alpha\\). Moreover, this map is an orthogonal involution i.e.
 
-\begin{equation*}
+\begin{equation\*}
    (s\_{\alpha}(\lambda),s\_{\alpha}(\mu)) = (\lambda,\mu),\quad\quad s\_{\alpha}^{2} = \text{id}
-\end{equation*}
+\end{equation\*}
