@@ -31,10 +31,19 @@ Now, the astute reader might be wondering what groups have to do with something 
 
 **Proposition** If \\(\phi\in O(V)\\) and \\(\alpha\in V\backslash\\{0\\}\\), then \\(\phi\circ s\_{\alpha}\circ\phi^{-1} = s\_{\phi(\alpha)}\\). In particular, if one takes \\(\phi \in W\\), then as a corollary \\(s\_{\phi(\alpha)}\in W\\) whenever \\(s\_{\alpha}\in W\\).
 
-**Proof** In order to show \\(\phi\circ s\_{\alpha}\circ\phi^{-1} = s\_{\phi(\alpha)}\\) we must show that both sides map the same vector to the same image. To this end, consider \\(x\in H\_{\phi(\alpha)}\\), the hyperplane orthgonal to \\(\phi(\alpha)\\). For such an \\(x\\) we have \\(0 = (x,\phi(\alpha)) = (\phi^{-1}(x),\alpha)\\), where the second equality comes from the fact that \\(\phi\\) and hence \\(\phi^{-1}\\) are orthogonal. Then
+**Proof** In order to show \\(\phi\circ s\_{\alpha}\circ\phi^{-1} = s\_{\phi(\alpha)}\\) we must show that both sides map the same vector to the same image. To this end, consider \\(x\in H\_{\phi(\alpha)}\\), the hyperplane orthgonal to \\(\phi(\alpha)\\). For such an \\(x\\) we have \\(0 = (x,\phi(\alpha)) = (\phi^{-1}(x),\alpha)\\), where the second equality comes from the fact that \\(\phi\\) and hence \\(\phi^{-1}\\) are orthogonal. Thus
 
 \begin{equation\*}
-   \phi\circ s\_{\alpha}\circ\phi^{-1}(x) = \phi(s\_{\alpha}(\phi^{-1}(x))) = \phi(\phi^{-1}(x)) = x = s\_{\phi(\alpha)}(x)
+   \phi(s\_{\alpha}(\phi^{-1}(x))) = \phi(\phi^{-1}(x)) = x = s\_{\phi(\alpha)}(x)
 \end{equation\*}
+
+Lastly, for \\(\phi(\alpha)\\) one also has
+
+\begin{equation\*}
+   \phi(s\_{\alpha}(\phi^{-1}(\phi(\alpha)))) = \phi(s\_{\alpha}(\alpha)) = -\phi(\alpha) = s\_{\phi(\alpha)}(\phi(\alpha))
+\end{equation\*}
+from which the result follows. \\(\Box\\)
+
+
 
 
