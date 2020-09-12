@@ -65,8 +65,8 @@ Call a subset \\(\Delta\\) of \\(\Phi\\) a **simple system** if \\(\Delta\\) is 
 
 **Theorem**
 <ol type="a">
-  <li>If \(\Delta\) is a simple system in $$\Phi$$, then there is a unique positive system containing \\(\Delta\\).</li>
-  <li>Every positive system \\(\Pi\\) in \\(\Phi\\) contains a unique simple system.</li>
+  <li>If \(\Delta\) is a simple system in \(\Phi\), then there is a unique positive system containing \(\Delta\).</li>
+  <li>Every positive system \(\Pi\) in \(\Phi\) contains a unique simple system.</li>
 </ol>
 
 **Proof** 
