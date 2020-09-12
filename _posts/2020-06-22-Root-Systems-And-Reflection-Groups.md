@@ -70,8 +70,7 @@ Call a subset \\(\Delta\\) of \\(\Phi\\) a **simple system** if \\(\Delta\\) is 
 </ol>
 
 **Proof** 
-<ol type = "a">
-  
-  <li>  </li>
-  
-</ol>
+
+Both statements are well proven in [Humphreys](https://books.google.com/books/about/Reflection_Groups_and_Coxeter_Groups.html?id=ODfjmOeNLMUC) on page 8. Pasting it here would only lengthen the post. \\(\Box\\)
+
+Instead, I will finish this post by saying a few words about why simple systems are so useful. Beyond allowing one to express all roots as linear combinations of simple roots, the structure of \\(W\\) becomes far simpler. Namely, call a reflection corresponding to a simple root of \\(\Delta\\) a **simple reflection**. Then it turns out these elements generate \\(W\\) i.e. all other reflections of \\(W\\) are expressible in terms of simple reflections. Moreover, for any \\(w\in W\\), the image \\(w(\Delta)\\) is again a simple system with corresponding positive system \\(w(\Pi)\\). In fact, any simple system is conjugate under \\(W\\). All of these properties and more will be explored in future blog posts!
