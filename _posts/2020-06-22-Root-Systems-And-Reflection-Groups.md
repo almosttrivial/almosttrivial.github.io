@@ -67,7 +67,10 @@ Call a subset \\(\Delta\\) of \\(\Phi\\) a **simple system** if \\(\Delta\\) is 
   <li>If \\(\Delta\\) is a simple system in \\(\Phi\\), then there is a unique positive system containing \\(\Delta\\).</li>
   <li>Every positive system \\(\Pi\\) in \\(\Phi\\) contains a unique simple system.</li>
 </ol>
-(a). 
 
-(b). 
-
+**Proof** 
+<ol type = "a">
+  
+  <li>  </li>
+  
+</ol>
