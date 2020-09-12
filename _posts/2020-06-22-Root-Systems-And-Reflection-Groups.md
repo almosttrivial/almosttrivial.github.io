@@ -61,7 +61,7 @@ In particular, note that the cardinality of a root system might be rather large 
 
 First, one calls a subset \\(\Pi\\) of \\(\Phi\\) a **positive system** if it consists of all the roots which are *positive* relative to some *total ordering of \\(V\\)*. Because every root appears with its negative, a total ordering on \\(V\\) induces a partition of \\(\Phi\\) into the union of \\(\Pi\\) and \\(-\Pi\\), the latter being called a **negative system**. 
 
-Call a subset \\(\Delta\\) of \\(\Phi\\) a **simple system** if \\(\Delta\\) is a basis for \\(V\\) such that every root is a linear combination of \\(\Delta\\) with coefficients *all of the same sign*. The elements of \\(\Delta\\) are called **simple roots**. While \\(\Delta\\) being a basis is already a bit of a tall order, seeing as how \\(\Phi\\) might not even necessarily span \\(V\\), the latter requirement of same sign coefficients is even more demanding. The surprising thing though is that simple systems actually exist!
+Call a subset \\(\Delta\\) of \\(\Phi\\) a **simple system** if \\(\Delta\\) is a basis for the \\(\mathbb{R}\\)-span of \\(\Phi\\) such that every root is a linear combination of \\(\Delta\\) with coefficients *all of the same sign*. The elements of \\(\Delta\\) are called **simple roots**. While \\(\Delta\\) being a basis for \\(\text{Span}\_{\mathbb{R}}\Phi\\) is already a bit of a tall order, seeing as how \\(\Phi\\) might not even necessarily span \\(V\\), the latter requirement of same sign coefficients is even more demanding. The surprising thing though is that simple systems actually exist!
 
 **Theorem** a. If \\(\Delta\\) is a simple system in \\(\Phi\\), then there is a unique positive system containing \\(\Delta\\).
 
