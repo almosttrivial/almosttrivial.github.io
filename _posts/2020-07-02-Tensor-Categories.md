@@ -29,7 +29,7 @@ A **monoidal category** is a sextuple \\((\mathcal{C},\otimes,1,\alpha,\rho,\lam
 
 such that the components of the natural isomorphisms make the following diagrams commute
 
-![](/images/Pentagon and Triangle axioms for Monoidal categories.PNG)
+![](/images/Pentagon and Triangle axioms for monoidal categories.PNG)
 
 The diagrams are called the **pentagon identity** and **triangle identity** for obvious reasons. The bifunctor \\(\otimes\\) is called the **tensor product of \\(\mathcal{C}\\)**, the object \\(1\\) is called the **unit object**, and the natural isomorphisms \\(\alpha,\rho,\lambda\\) are called the **associatora**, the **right-unitor**, and the **left-unitor**. There is an equivalent formulation in [Etingof](REFERENCE) that allows one to define a monoidal category as a quintuple, but I prefer this formulation more.
 
