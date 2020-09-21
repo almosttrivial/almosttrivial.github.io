@@ -25,7 +25,7 @@ For the first, recall that \\(\mu_{A}\\) is required to be \\(R\\)-bilinear. By 
 
 Now, going back to the subtlety I was promising: the equality in 1 is not on **the same triple of elements!** Indeed, the above expression in terms of tensor maps shows the domain of the left hand side and right hand side are \\((A\otimes A)\otimes A\\) and \\(A\otimes (A\otimes A)\\), respectively. These spaces are **not the same** spaces, but they are **isomorphic as \\(R\\)-modules!** If we turn to the language of diagrams, the associativity of our multiplication is equivalent to the commutativity of the following diagram
 
-PUT THE DIAGRAM
+![](/images/associativity diagram for algebras.PNG)
 
 For the second condition, recall that having this unit allows one to define the following \\(R\\)-linear map \\(\iota\_{A}: R\to A\\) given by \\(r\mapsto \phi(r)(1\_{A})\\) where \\(\phi: R\to\text{End}(A)\\) is the \\(R\\)-module structure on \\(A\\). In particular, note that since \\(\phi\\) is a ring homomrphism and preserves the identity
 
@@ -47,11 +47,13 @@ Thus, the image is in the center and in particular
 
 Using juxtaposition, equation (1) is more commonly written as \\((r1\_{A})x = rx = xr = x(r1\_{A})\\). Note that the center term of (1) is in fact \\(R\\)-bilinear in the arguments, hence lifts to a linear map on the corresponding tensor product. In particular, (1) is equivalent to the following diagram being commutative
 
-PUT THE DIAGRAM
+![](/images/unitality diagram for algebras.PNG)
 
 One can in fact define an associative unital \\(R\\)-algebra as a triple \\((A,\mu\_{A},\iota\_{A})\\) consisting of an \\(R\\)-module \\(A\\) with an \\(R\\)-bilinear map \\(\mu\_{A}: A\otimes A\to A\\) and an \\(R\\)-linear map \\(\iota\_{A}:R\to A\\) such that the above diagrams commute. In other words, like I said before: as a monoid object in the category of \\(R\\)-modules! It should now be evident how one defines a **co**algebra: just dualize the diagrams! More specifically, a coassociative, counital \\(R\\)-coalgebra is a triple \\((A,\Delta\_{A},\varepsilon\_{A})\\) consisting of an \\(R\\)-module \\(A\\) with \\(R\\)-linear maps \\(\Delta\_{A}: A\to A\otimes A\\) and \\(\varepsilon\_{A}:A\to R\\) such that the following diagrams commute
 
-PUT THE DIAGRAM
+![](/images/coassociativity diagram for coalgebras.PNG)
+
+![](/images/counitality diagram for coalgebras.PNG)
 
 The reader should try to guess what a bialgebra is before going on.
 
@@ -62,7 +64,7 @@ Did you guess? If you thought it would be a quintuple  \\((A,\mu\_{A},\iota\_{A}
 
 In category theory terms, a bilagebra is a bimonoid in the category of \\(R\\)-modules; a monoid in the category of comonoids in **\\(R\\)-mod**; a comonoid in the category of monoids in **\\(R\\)-mod**. One little detail I am bypassing is what exactly is an algebra or coalgebra homomorphism; what are the morphisms in the aforementioned categories? Well, these are exactly what you would imagine: \\(R\\)-linear maps that preserve the (co)algebra structure! Namely, \\(f\\) is an algebra homomorphism or coalgebra homomorphism if the following diagrams commute
 
-PUT DIAGRAMS
+![](/images/homomorphism of algebras.PNG)
 
 respectively. 
 
@@ -79,7 +81,7 @@ For a discussion on the categorical significance of the transpoition map, I invi
 
 Alright, well now that we have bialgebras, how do we get Hopf algebras? The progression from algebra to coalgebra and then to bialgebra seems pretty natural. To summarize, we formulate the axioms of an algebra in terms of diagrams, dualize them, and then consider objects that satisfy the corresponding four diagrams with a compability condition. So what is the "additional thing" done in order to obtain a Hopf algebra? Unfortunately, at the present time the definition will seem rather forced. It will be demystified in future blog posts, so for now take it as you would like: a Hopf \\(R\\)-algebra is a sextuple \\((A,\mu\_{A},\iota\_{A},\Delta\_{A},\varepsilon\_{A}, S\_{A})\\) such that the first five maps make \\(A\\) an \\(R\\)-bialgebra, and where the \\(R\\)-linear map \\(S_{A}:A\to A\\) is such that following diagrams commute
 
-PUT DIAGRAMS
+![](/images/antipode diagram.PNG)
 
 Of course, one naturally has the categorical notion of Hopf monoid, but that is probably not surprising at this point. What is interesting though is that if an antipode exists, then it is [unique](PROOF). Also, from its definition alone, antipodes are necessarily [antihomomorphisms of algebras and coalgebras](PROOF). Seeing how richly defined a Hopf algebra is, it should not come as a surprise that the representation theory of a Hopf algebra is also quite rich. I will have more to say in future blog posts about its categorical significance, but for now I would like to present two fundamental examples of Hopf algebras before finishing off this post.
 
