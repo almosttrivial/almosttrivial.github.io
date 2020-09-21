@@ -18,7 +18,7 @@ Next, given \\(F:J\to\mathcal{C}\\) a digram of shape \\(J\\) in a category \\(\
 
 Now that we have cones, we can define a limit! A **limit** of the diagram \\(F:J\to\mathcal{C}\\) is a cone \\((L,\psi)\\) to \\(F\\) such that for every other cone \\((A,\phi)\\) to \\(F\\) there exists a *unique* morphism \\(\theta:A\to L\\) such that \\(\phi\_{X} = \psi\_{X}\circ\theta\\). That is, a limit of a diagram \\(F\\) is a cone to \\(F\\) such that *all other cones to \\(F\\) factor through it*. This can be expressed by the following diagram being everywhere commutative
 
-INSERT DIAGRAM
+![](/images/limit diagram.PNG)
 
 Of course one can then dualize this notion and define **cocones** and analogously **colimits,** but these are just cones and limits in the opposite category, so I will solely consider these latter terms. 
 
@@ -26,7 +26,7 @@ So what was so confusing to me about limits? Well more unsettling than confusing
 
 Recall that a natural transformation is in fact a morphism between functors which satisfies a compatibliity relation. Namely, if \\(F,G:\mathcal{C}\to\mathcal{D}\\) are functors, then a natural transformation \\(\eta:F\to G\\) is a family of morphisms \\(\eta\_{X}:F(X)\to G(X)\\) for every object \\(X\\) of \\(\mathcal{C}\\) such that \\(\eta\_{Y}\circ F(f) = G(f)\circ\eta\_{X}\\) for all morphisms \\(f:X\to Y\\). The compatiblity is equivalent to the following diagram commuting:
 
-INSERT DIAGRAM
+![](/images/natural transformation diagram.PNG)
 
 The similarity to the compatibility relation in the definition of a limit should be rather striking. The problem is now how can I realize any cone \\((A,\phi)\\) as some sort of natural transformation? The way to do this is actually really trivial and the obvious thing to do once you know it...care to guess? Well let's take a look at the compatibility relation once more: \\((A,\phi)\\) is a cone to \\(F\\) if \\(\phi\_{Y} = F(f)\circ\phi\_{X}\\) for all \\(f:X\to Y\\). I am now going to perform a wonderful trick:
 
@@ -49,7 +49,7 @@ which is to say, every component morphism *needs to be the same*! Well, given th
 
 To finish, recall the notion of a **universal morphism** from a functor (resp. object) to an object (resp. functor). For the purpose of this blog, I will only define the former object; the latter is obtained by reversing arrows. Given a functor \\(F:\mathcal{C}\to\mathcal{D}\\), a **universal morphism from \\(F\\) to \\(X\\)** with \\(X\\) an object of \\(\mathcal{D}\\) is a pair \\((A,u: F(A)\to X)\\) consisting of an object from \\(\mathcal{C}\\) and a morphism \\(u:F(A)\to X\\) in \\(\mathcal{D}\\) such that for any morphism \\(f:F(A')\to X\\) in \\(\mathcal{D}\\), there exists a *unique morphism* \\(h:A'\to A\\) in \\(\mathcal{C}\\) such that the following diagram commutes
 
-INSERT THE DIAGRAM
+![](/images/universal morphism diagram.PNG)
 
 This construction might be familiar to those who know about **comma categories**, but I do not need this much generality here and will thus now discuss it. Indeed, now that we have recalled universal morphisms, we are done! Returning to our previous setup, we had a diagram \\(F:J\to\mathcal{C}\\), which is nothing more than an object in the category \\(C^{J}\\). We then defined the constant functor \\(\Delta:\mathcal{C}\to \mathcal{C}^{J}\\), and are able to phrase a limit as being a natural transformation \\((\Delta(L),\psi)\\) to \\(F\\) such that all other natural transformations \\((\Delta(A),\phi)\\) to \\(F\\) uniquely factor through \\((\Delta(L),\psi)\\) i.e.
 
