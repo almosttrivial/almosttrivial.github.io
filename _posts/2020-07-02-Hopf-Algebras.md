@@ -85,11 +85,7 @@ Alright, well now that we have bialgebras, how do we get Hopf algebras? The prog
 
 Of course, one naturally has the categorical notion of Hopf monoid, but that is probably not surprising at this point. What is interesting though is that if an antipode exists, then it is [unique](PROOF). Also, from its definition alone, antipodes are necessarily [antihomomorphisms of algebras and coalgebras](PROOF). Seeing how richly defined a Hopf algebra is, it should not come as a surprise that the representation theory of a Hopf algebra is also quite rich. I will have more to say in future blog posts about its categorical significance, but for now I would like to present two fundamental examples of Hopf algebras before finishing off this post.
 
-The reader familiar with finite groups or Lie algebras should know about group algebras and universal enveloping algberas, respectively. Otherwise, you can check out their definitions [here](LINK) and [here](LINK), respectively. I encourage the reader to then verify that if \\(G\\) is a finite group and \\(\mathfrak{g}\\) is a complex Lie algebra, then the group algebra \\(k[G]\\) and universal enveloping algebra \\(U(\mathfrak{g})\\) can be made into Hopf algebras with the following structure maps:
-
-EQUATIONS
-
-These two families of examples are actually fundamentally important to the general theory of Hopf algebras because of the following theorem attributed to Cartier, Gabriel, and Kostant:
+The reader familiar with finite groups or Lie algebras should know about group algebras and universal enveloping algberas, respectively. Otherwise, you can check out their definitions [here](LINK) and [here](LINK), respectively. I encourage the reader to then verify that if \\(G\\) is a finite group and \\(\mathfrak{g}\\) is a complex Lie algebra, then the group algebra \\(k[G]\\) and universal enveloping algebra \\(U(\mathfrak{g})\\) can be made into Hopf algebras. These two families of examples are actually fundamentally important to the general theory of Hopf algebras because of the following theorem attributed to Cartier, Gabriel, and Kostant:
 
 **Theorem** _Suppose \\(H\\) is a cocommutative Hopf algebra over a characteristic zero algebraically closed field \\(k\\). Then there is an isomorphism_
 
