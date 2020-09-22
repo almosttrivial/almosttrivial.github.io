@@ -8,8 +8,8 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
     
-  - title: "Academia"
-    url: /Academia/   
+  - title: "CV"
+    url: /files/paper1.pdf 
     
   - title: "Resources"
     url: /resources/
