@@ -2,14 +2,14 @@
 main:
  
       
+  - title: "Bio"
+    url: /bio/
+    
   - title: "Blog Posts"
     url: /year-archive/
     
-  - title: "Math Art"
-    url: /Math-Art/   
-    
-  - title: "Bio"
-    url: /bio/
+  - title: "Academia"
+    url: /Academia/   
     
   - title: "Resources"
     url: /resources/
