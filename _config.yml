@@ -311,5 +311,6 @@ compress_html:
   ignore:
     envs: development
 
+google-site-verification: google7c41adf7766dae77.html
 
 theme: jekyll-theme-cayman
