@@ -4,7 +4,7 @@ title: "Presentations"
 author_profile: true
 redirect_from: 
   - /presentations.html
-youtubeID: watch?v=qhO0tm0JU_4&feature=youtu.be&fbclid=IwAR05KCF1NMyrTFrdbFRwBOUsV-T1QVS1snJBy4mus8jVbmWwR_hALwmKKco
+youtubeID: qhO0tm0JU_4&feature=youtu.be&fbclid=IwAR05KCF1NMyrTFrdbFRwBOUsV-T1QVS1snJBy4mus8jVbmWwR_hALwmKKco
 ---
 
 Here are the slides and video recording of my most recent talk at the Graduate Algebra and Representation Theory Seminar (GARTS) at Rutgers University
