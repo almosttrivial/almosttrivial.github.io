@@ -13,5 +13,8 @@ Here are the slides and video recording of my most recent talk at the Graduate A
 
 {% include quantumsl2GARTS.html id="qhO0tm0JU_4" %}
 
+<br/>
+<br/>
+<br/>
 
 In the Spring of 2020 I was in a Maple programming course taught by Prof. Zeilberger, and one day none other than Neil Sloane gave a talk on some interesting sequences he and a colleague of his had been considering. He tasked the class with working on analyzing the sequences, and he was quite interested with the plots I produced; you can find them [here](https://oeis.org/A331452) on the OEIS!
