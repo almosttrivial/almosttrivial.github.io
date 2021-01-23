@@ -19,7 +19,7 @@ Abstract: This talk is a continuation of my talk last week in which we defined r
 
 {% include quantumsl2GARTS.html id="91AkGBdOF7U" %}
 
-* [Not Really a Knot Talk \\ (Part 1)](https://almosttrivial.github.io/files/Not_Really_A_Knot_Talk_(Part 1).pdf)
+* [Not Really a Knot Talk (Part 1)](https://almosttrivial.github.io/files/Not_Really_A_Knot_Talk_(Part 1).pdf)
 
 Abstract: The goal of my sequence of talks is to showcase how useful quantum groups can be through one of my favorite applications: (quantum) knot invariants! These are an instance of something more general called Reshetikhin-Turaev invariants, or RT invariants for short. In order to define and discuss these objects, we will need some background on a couple of topics; this is why I will give a couple of talks!
 The first installment of my talks will predominantly be the necessary algebraic background to construct RT invariants. This will feature plenty of category theory, but all motivated and exemplified from familiar categories e.g. kVect, Rmod, Rep(G), Rep(g), and Rep(U_q(g)). Specifically, we will work toward the definition of ribbon categories and a notion of trace therein. I will then use the remaining time to lay the foundation for next week's geometric part of these presentations by introducing a nice pictorial tool to work with ribbon categories. 
