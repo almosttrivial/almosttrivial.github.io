@@ -24,7 +24,7 @@ and its associatitivity means the following diagram commutes
 
 where \\(\alpha\_{M,M,M}\\) is the canonical isomorphism. The fact that the operation is unital means that there is a two-sided identity element with respect to the operation. Now, recall the one-element set \\(\mathbbm{1} := \\{\ast\\}\\) and the unique set-map
 \begin{equation\*}
-    \iota:\mathbbm{1}\to M,\quad \ast\mapsto 1\_{M}
+    \iota:1\!\!1\to M,\quad \ast\mapsto 1\_{M}
 \end{equation\*}
 Then the unitality of \\(\mu\\) means the following diagrams commute
 
