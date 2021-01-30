@@ -8,23 +8,23 @@ tags:
 ---
 
 
-One of my favorite parts about Category Theory is its generalization of commonly seen structures or interactions, and then being able to witness similar behavior in surprisingly different context. This blog post pertains to one particular categorification I like, and that is the notion of a monoid object and module objects with respect to a monoid object. 
+One of my favorite parts about Category Theory is its generalization of commonly seen structures or interactions, and then being able to witness similar behavior in surprisingly different context. This blog post pertains to one particular categorification I like: monoid objects and module objects with respect to a monoid object. 
 
-As the name suggests, one looks at a categorification of a monoid, which is just a group with no inverses or a semigroup with an identity; it depends on how you see the glass of water I suppose. Consequently, we have a set with a unital, associative, binary product. Like most things in category theory, the general construction we are aiming for can be obtained if you consider what the structure is in terms of maps; after all, categories are all about morphisms!
+As the name suggests, one looks at a categorification of a monoid, which is just a group with no inverses or a semigroup with an identity; it depends on how you see the glass of water I suppose. No matter what's in your cup, a monoid is a set with a unital, associative, binary product. Like most things in category theory, the general construction we are aiming for can be obtained if you consider what the structure is in terms of maps; after all, categories are all about morphisms!
 
-If we denote a monoid by \\(M\\), then the fact that there is a binary operation means there is a set-map
+If we denote a monoid by \\(M\\), then that there is a binary operation means there is a set-map
 
 \begin{equation\*}
-    \mu:M\times M\to M
+    \mu:M\times M\to M,
 \end{equation\*}
 
-That the operation is associative means the following diagram commutes
+and its associatitivity means the following diagram commutes
 
-  ![](/images/Monoid-object-associativity.PNG)
+  ![](/images/Monoid-object-associativity.PNG),
 
-Where \\(\alpha\_{M,M,M}\\) is the canonical isomorphism between direct product of sets. The fact that the operation is unital means that there is a two-sided identity element with respect to the operation. Now, recall the one-element set \\(\mathbb{1} := \\{\ast\\}\\) and the unique set-map
+where \\(\alpha\_{M,M,M}\\) is the canonical isomorphism. The fact that the operation is unital means that there is a two-sided identity element with respect to the operation. Now, recall the one-element set \\(\mathbbm{1} := \\{\ast\\}\\) and the unique set-map
 \begin{equation\*}
-    \iota:\mathbb{1}\to M,\quad \ast\mapsto 1\_{M}
+    \iota:\mathbbm{1}\to M,\quad \ast\mapsto 1\_{M}
 \end{equation\*}
 Then the unitality of \\(\mu\\) means the following diagrams commute
 
