@@ -10,7 +10,7 @@ tags:
 ---
 
 
-The first topic I pursued at the start of my doctoral studies was learning about the representation theory of complex semisimple Lie algebras. My main resource was [Humphreys](https://books.google.com/books/about/Introduction_to_Lie_Algebras_and_Represe.html?id=gCUlAQAAIAAJ), which, while relatively small given the complexity of the topic, was a very clear and concise treatment of the material[.](https://drive.google.com/file/d/1sbxLuVlFT-y8O5hIGBm1N-VQB2gKD34S/view?usp=sharing) 
+The first topic I pursued at the start of my doctoral studies was learning about the representation theory of complex semisimple Lie algebras. My main resource was [Humphreys](https://books.google.com/books/about/Introduction_to_Lie_Algebras_and_Represe.html?id=gCUlAQAAIAAJ), which, while relatively small given the complexity of the topic, was a very clear and concise treatment of the material.
 
 In this post I will highlight some of the main attractions of the theory: the classification of complex-simple Lie algebras, their Serre presentation, and their representation theory. However, each of these examples and more will be properly explored and presented in their own respective blog posts. Thus, consider this as almost my rendition of Humphreys preface.
 
