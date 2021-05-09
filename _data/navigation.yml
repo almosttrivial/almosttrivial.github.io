@@ -14,6 +14,9 @@ main:
   - title: "Presentations"
     url: /presentations/
     
+  - title: "Notes"
+    ur: /notes/
+    
   - title: "Resources"
     url: /resources/
 
